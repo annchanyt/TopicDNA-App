@@ -45,6 +45,25 @@ body{
 }
 /* Buttons =============================*/
 /* ================================================*/
+.btn{
+	color: $white;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 2px 6px;
+	&:hover{
+		color: $white;
+	}
+}
+.btn-inverted{
+	background-color: inherit;
+	border:none;
+	&:hover{
+		border: solid 1px;
+		border-radius: 3px;
+		border-color: inherit;
+	}
+}
+// btn size ----------/
 .btn-danger, .btn-danger:visited{
 		background-color: $pink;
 		border: solid 1px $pink;
@@ -73,6 +92,19 @@ body{
 	width: inherit; 
 	border-radius: 0;
 }
+.schedule-tweet-btn{
+	background-color: $dark-blue;
+	margin-right:6px;
+	&:hover{
+		background-color: darken($dark-blue, 10%);
+	}
+}
+.tweet-btn{
+	background-color: $pink;
+	&:hover{
+		background-color: darken($pink, 10%);
+	}
+}
 /* Helper Class =============================*/
 /* ================================================*/
 .inactiveLink{
@@ -84,11 +116,79 @@ body{
 	text-decoration: none;
 	color: $black;
 }
+.col-xs-5-5{
+	width: 47%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-xs-3-5{
+	width: 28%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
 .col-no-padding{
 	padding: 0;
 }
-/* General Styles =============================*/
-/* ================================================*/
+.col-no-padding-right{
+	padding-right: 0;
+}
+.col-no-padding-left{
+	padding-left: 0;
+}
+/* Header =============================*/
+.navbar-avatar-dropdown {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+nav {
+  .form-inline {
+    position: relative;
+    float: right;
+    .form-control{
+      background-color: inherit;
+      width: 250px;
+      margin-right: 20px;
+      border: solid 2px #80D0CC;
+      height: 36px;
+      input {
+        color: $white;
+        opacity: 0.7;
+      }
+      &::-webkit-input-placeholder{
+        color: $white;
+        opacity: 0.7;
+      }
+      &::-moz-placeholder{
+        color: $white;
+        opacity: 0.7;
+      }
+    }
+    span {
+      background-color: inherit;
+      border: none;
+      color: $white;
+      position: absolute;
+      top: 8px;
+      left: 230px;
+      &:hover {
+        background-color: inherit;
+        color: $white;
+      }
+    }
+    img{
+      height: 36px;
+      width: 36px;
+      border: 2px solid $white;
+      margin-right: 16px;
+    }
+  }
+}
 header{
 	background-color: $green;
 	padding: 8px 0;  
@@ -158,6 +258,190 @@ header{
 		}
 	}
 }
+
+/* Footer =============================*/
+footer{
+	background-color: $black2;
+	height: 134px;
+}
+
+/* Tweets =============================*/
+/* ================================================*/
+.avatar{
+		height: 48px;
+		width: 48px;
+		border-radius: 5px;
+		float: left;
+		margin: 0 10px 0 14px;
+	}
+.tweet{
+	font-family: 'Helvetica Neue';
+	position: relative;
+	border-radius: 5px 0 0 5px;
+	strong{
+		font-size: 14px;
+		color: $tblack;
+	}
+	.username{
+		font-size: 13px;
+		color: $tgrey;
+	}
+	small.time{
+		color: $tgrey;
+		&:before{
+			content: "\00b7";
+			margin-right: 2px;
+			font-size: 13px;
+		}
+	}
+	.tweet-text{
+		margin-left: 72px;
+		margin-right: 14px;
+	}
+	.tweet-container{
+		padding: 0;
+	}
+	.quote-tweet{
+		margin: 12px 14px 0 72px;
+		border: solid 1px #e1e8ed;	
+		border-radius: 4px;
+		.quote-tweet-inner-container{
+			padding:12px;
+		}
+	}
+	.tweet-context{
+		margin-bottom: 3px;
+		margin-left: 33px;
+		.fa-retweet{
+			margin-right: 6px;
+			color: #77B255;
+		}
+	}
+	.media-container{
+		margin: 12px 14px 12px 72px;
+		max-height: 252px;
+		max-width: 506px;
+		border-radius: 5px;
+		overflow: hidden;
+		.photo-container{
+			width: 100%;
+			height: 100%;
+		}
+		.img{
+			width:100%;
+		}
+	}
+}
+.t-action-btns-container{
+	background-color: $white;
+	border-radius: 0 5px 5px 0;
+	// display: flex;
+	// -webkit-align-items: center;
+ //          align-items: center;
+ //  -webkit-justify-content: center;
+ //          justify-content: center;
+  &:before{
+		content: '';
+		display: inline-block;
+		height: 100%; 
+		vertical-align: middle;
+		margin-right: -0.25em; // Adjusts for spacing
+	}
+}
+.t-action-btns{
+	text-align: center;
+	vertical-align: middle;
+	.btn{
+		font-size: 14px;
+		color: $main-blue;
+		vertical-align: top;
+		margin-right: 16px;
+		i{
+			font-size: 36px;
+			display: block;
+		}
+		&:hover{
+			color: darken($main-blue, 10%);
+		}
+	}
+}
+// Tweets input ============================= 
+.tweet-box{
+	width: 100%;
+	background-color: $main-blue;
+	min-height: 120px;
+	position: relative;
+	.avatar{
+		margin: 0;
+		position: absolute;
+		top: 15px;
+		left: 14px;
+	}
+	div[contenteditable]{
+		padding: 8px 10px;
+		font-size: 14px;
+		background-color: $white;
+		border-radius: 3px;
+		min-height: 60px;
+	}
+}
+.tweet-form{
+	margin-left: 56px;
+	div.rich-editor {
+    display: block;
+    overflow-y: auto;
+    word-wrap: break-word;
+	}
+}
+.toolbar{
+	padding: 12px 0 0;
+	div{
+		display: inline-block;
+		font-size: 16px;
+		color: $white;
+		.photo-selector{
+			margin-right: 6px;
+		}
+		i{
+			margin-right: 8px;
+		}
+	}	
+	.tweet-box-extras{
+		float: left;
+	}
+	.tweet-button{
+		float:right;	
+		.tweet-counter{
+			margin-right: 6px;
+		}
+	}
+}
+// Tweets input inline
+.tweet-box-container{
+	background-color: $main-blue;
+	padding: 6px 16px;
+	border-radius: 0 5px 5px 0;
+}
+.tweet-box-inline{
+	border: none;
+	box-shadow: none;
+	min-height: 300px;
+	.panel-body{
+		padding: 0;
+	}
+	.tweet-form{
+		margin: 12px 0;
+		div[contenteditable]{
+			min-height: 200px;
+		}
+		.toolbar .fa{
+			margin: 1px 3px;
+		}
+	}
+}
+/* General Styles =============================*/
+/* ================================================*/
+
 .header-blue{
 	background-color: $blue;
 	color: $white;
@@ -322,82 +606,6 @@ header{
 						margin-bottom:0;
 						border-radius:0;
 					}
-					.tweet{
-						font-family: 'Helvetica Neue';
-						.avatar{
-							height: 48px;
-							width: 48px;
-							border-radius: 5px;
-							float: left;
-							clear: both;
-							margin: 0 10px 0 14px;
-						}
-						strong{
-							font-size: 14px;
-							color: $tblack;
-						}
-						.username{
-							font-size: 13px;
-							color: $tgrey;
-						}
-						small.time{
-							color: $tgrey;
-							&:before{
-								content: "\00b7";
-								margin-right: 2px;
-								font-size: 13px;
-							}
-						}
-						.col-sm-7{
-							border-right: solid 2px rgba($grey,0.12);
-						}
-						.col-sm-5{
-							text-align: center;
-							min-height: 100px;
-							&:before {
-								content: '';
-								display: inline-block;
-								height: 100%; 
-								vertical-align: middle;
-								margin-right: -0.25em; /* Adjusts for spacing */
-								}
-							a{
-								vertical-align: middle;
-								display: inline-block;
-							}
-						}
-						.quote-tweet{
-							margin: 12px 14px 0 72px;
-							border: solid 1px #e1e8ed;	
-							border-radius: 4px;
-							.quote-tweet-inner-container{
-								padding:12px;
-							}
-						}
-						.tweet-context{
-							margin-bottom: 3px;
-							margin-left: 33px;
-							.fa-retweet{
-								margin-right: 6px;
-								color: #77B255;
-							}
-						}
-						.media-container{
-							margin: 12px 14px 12px 72px;
-							max-height: 252px;
-							max-width: 506px;
-							border-radius: 5px;
-							overflow: hidden;
-							.photo-container{
-								width: 100%;
-								height: 100%;
-							}
-							.img{
-								width:100%;
-							}
-						}
-					}
-
 					.follower{
 						height: 646px;
 						h4{
@@ -489,112 +697,37 @@ header{
 		}
 	}
 }
-
 .content-inner{
 	margin: 37px 0;
 	padding: 0;
-	.body-contents{
-		& > .row{
-			&.body-header{
-				h2{
-					font-size: 36px;
-					margin: 0;
-					font-weight: 700;
-					color: $black;
-				}
-				h3{
-					font-size: 24px;
-					line-height: 30px;
-					color: $grey;
-				}
-				.document-tweets{
-					padding: 25px 80px;
-					.panel{
-						&:first-child{
-							border-radius:0;
-							ul{
-								list-style-type: none;
-								padding: 0;
-								margin: 6px 0;
-								li{
-									color: $black3;
-									font-size: 16px;
-									float: left;
-									margin-right: 19px;
-									a{
-										font-size: 16px;
-										color: $blue;
-										display: block;
-									}
-									&:last-child{
-										margin-right: 0;
-									}
-								}
-							}
-						}
-						&.tweet{
-							.col-sm-7{
-								border-right: solid 2px rgba($grey,0.12);
-							}
-							.col-sm-5{
-								text-align: center;
-								min-height: 100px;
-								&:before {
-									content: '';
-									display: inline-block;
-									height: 100%; 
-									vertical-align: middle;
-									margin-right: -0.25em; /* Adjusts for spacing */
-									}
-								a{
-									vertical-align: middle;
-									display: inline-block;
-								}
-							}
-						}
-						.panel-body{
-
-						}
-					}
-					.follower{
-						a.btn{
-							 padding: 6px 12px;
-							 &.btn-xs{
-							 	 padding: 1px 8px;
-							 }
-						}
-						h4{
-							font-size: 16px;
-							color: $black;
-							font-weight: 600;
-							margin: 25px 0;
-						}
-						ul{
-							margin: 0;
-							padding: 0;
-							text-align: left;
-							li{
-								list-style-type: none;
-								display: inline-block;
-								margin: 0 43px 16px 0;
-								&:last-child{
-									margin-right:0;
-								}
-								img{
-									width: 48px;
-									height: 48px;
-									border: solid 1px $white;
-								}
-							}
-						}
-					}
-				}
+}
+.body-header{
+	h2{
+		font-size: 36px;
+		margin: 0;
+		font-weight: 700;
+		color: $black;
+	}
+}
+.aside{
+	ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 6px 0;
+		li{
+			color: $black3;
+			font-size: 16px;
+			display: block;
+			margin-bottom: 6px;
+			a{
+				font-size: 16px;
+				color: $blue;
+				display: block;
+			}
+			&:last-child{
+				margin-right: 0;
 			}
 		}
 	}
 }
 
-footer{
-	background-color: $black2;
-	height: 134px;
-}

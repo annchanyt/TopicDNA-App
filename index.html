@@ -29,6 +29,74 @@
     <![endif]-->
   </head>
   <body>
+    <!-- <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <%= link_to root_path, class: 'navbar-brand' do %>
+            <%= image_tag 'logo.png' %>
+          <% end %>
+        </div>
+        <% if identity_signed_in? %>
+          <%= render 'layouts/identity_navbar' %>
+        <% end %>
+        <% if admin_signed_in? %>
+          <%= render 'layouts/admin_navbar' %>
+        <% end %>
+      </div>
+      <div>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <%= link_to '#', class: 'nav-icons btn btn-lg' do %>
+              <%= icon 'bookmark', 30 %>
+            <% end %>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="navbar-avatar-dropdown dropdown-toggle" data-toggle="dropdown">
+              <%= image_tag current_identity.profile_picture, class: 'img-circle', height: 34, width: 34 %> 
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <%= content_tag :li, link_to('Home', root_path) %>
+              <%= content_tag :li, nil, class:'divider' %>
+              <%= content_tag :li, link_to('Sign out', destroy_session_path, method: :delete) %>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right form-inline" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search Profiles">
+            <span><%= icon 'search' %></span>
+          </div>
+        </form>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= current_admin.email %> <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <% if current_admin.superadmin? %>
+              <%= content_tag :li, link_to('Manage Admins', manage_admins_path) %>
+              <%= content_tag :li, nil, class:'divider' %>
+                <%= content_tag :li, link_to('Demo', demo_following_path) %>
+                <%= content_tag :li, nil, class:'divider' %>
+                <%= content_tag :li, link_to('User Profile', edit_admin_registration_path) %>
+                <%= content_tag :li, link_to('Social Accounts', authorizations_path) %>
+                <%= content_tag :li, nil, class:'divider' %>
+              <% else %>
+                <%= content_tag :li, link_to('Home', root_path) %>
+                <%= content_tag :li, nil, class:'divider' %>
+                <%= content_tag :li, link_to('User Profile', edit_admin_registration_path) %>
+                <%= content_tag :li, link_to('Social Accounts', authorizations_path) %>
+                <%= content_tag :li, nil, class:'divider' %>
+              <% end %>
+              <%= content_tag :li, link_to('Sign out', destroy_session_path, method: :delete) %>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
     <header class="masthead">
       <div class="logo">
         <a href="#" title="topicDNA"><img src="images/logo.png" alt="topicDNA" /></a>
@@ -38,8 +106,8 @@
           <button aria-label="Search" type="submit"><i aria-hidden="true" class="fa fa-search"></i></button>
           <input class="form-control" type="text" placeholder="Search Profiles"/>
           <a class='nav-icons' href=""><i aria-hidden="true" class="fa fa-bookmark"></i>40</a>
-          <a class='nav-icons' href=""><i aria-hidden="true" class="fa fa-bell"></i>3</a>
-          <a href=""><img class='img-circle avatar' src="images/Ev-Williams.jpg" alt="Adidas" /></a>
+          <!-- <a class='nav-icons' href=""><i aria-hidden="true" class="fa fa-bell"></i>3</a> -->
+          <a href=""><img class='img-circle' src="images/Ev-Williams.jpg" alt="Adidas" /></a>
         </form>
       </div>
     </header>
@@ -119,12 +187,14 @@
                             <a class='inactiveLink' href="">
                                <img class='avatar' src="images/Ev-Williams.jpg" alt="Tweet 1" />
                             </a>
-                            <a class='inactiveLink' href="">
-                              <strong>Jack</strong>
-                              <span class='username'>@Jack</span>
-                            </a>
-                            <small class='time'>4 mins</small>
-                            <p>Dear <a href="" class='inactiveLink hashtag'>#Inners</a>: If you have not re-tweeted the ever-loving f**k out of  <a href="" class='t-handle inactiveLink'>@igorvolsky</a>, you are dropping the ball. I forgive you, but get to work.</p>
+                            <div class='tweet-text'>
+                              <a class='inactiveLink' href="">
+                                <strong>Jack</strong>
+                                <span class='username'>@Jack</span>
+                              </a>
+                              <small class='time'>4 mins</small>
+                              <p>Dear <a href="" class='inactiveLink hashtag'>#Inners</a>: If you have not re-tweeted the ever-loving f**k out of  <a href="" class='t-handle inactiveLink'>@igorvolsky</a>, you are dropping the ball. I forgive you, but get to work.</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -134,13 +204,15 @@
                           <div class="row">
                             <a class='inactiveLink' href="">
                                <img class='avatar' src="images/Ev-Williams.jpg" alt="Tweet 1" />
-                            </a> 
-                            <a class='inactiveLink' href="">
-                              <strong>Jack</strong>
-                              <span class='username'>@Jack</span>
                             </a>
-                            <small class='time'>4 mins</small>
-                            <p>Best Team Out There</p>
+                            <div class='tweet-text'> 
+                              <a class='inactiveLink' href="">
+                                <strong>Jack</strong>
+                                <span class='username'>@Jack</span>
+                              </a>
+                              <small class='time'>4 mins</small>
+                              <p>Best Team Out There</p>
+                            </div>  
                             <div class="quote-tweet">
                               <div class="quote-tweet-container">
                                 <a href="" class="quote-tweet-link inactiveLink">
@@ -181,7 +253,6 @@
                             </div>
                           </div>
                         </div>
-
                       </div>
                     </div>
                      
@@ -225,7 +296,7 @@
                   </div>
                   <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                      <a class="btn btn-danger" href="#">Hop on the conversation</a><br><br>
+                      <a class="btn btn-danger" href="conversation.html">Hop on the conversation</a><br><br>
                       <a class="btn btn-primary" href="#">see more tweets</a>                            
                     </div>  
                   </div>
