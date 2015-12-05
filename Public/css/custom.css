@@ -1,0 +1,663 @@
+/*@import 'compass/css3';*/
+/* Colours =============================*/
+/* ================================================*/
+/* Typography =============================*/
+/* ================================================*/
+/* line 41, ../../Private/Sass/custom.scss */
+body {
+  color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #e6e6e6;
+}
+
+/* Buttons =============================*/
+/* ================================================*/
+/* line 48, ../../Private/Sass/custom.scss */
+.btn-danger, .btn-danger:visited {
+  background-color: #e53272;
+  border: solid 1px #e53272;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 4px 20px;
+}
+
+/* line 55, ../../Private/Sass/custom.scss */
+.btn-danger:hover {
+  background-color: #ca1a59;
+  border: solid 1px #ca1a59;
+}
+
+/* line 59, ../../Private/Sass/custom.scss */
+.btn-primary, .btn-primary:visited {
+  background-color: #31A2D8;
+  border: solid 1px #31A2D8;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 4px 10px;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+/* line 68, ../../Private/Sass/custom.scss */
+.btn-primary:hover {
+  background-color: #2285b4;
+  border: solid 1px #2285b4;
+}
+
+/* line 72, ../../Private/Sass/custom.scss */
+.btn.full-width-button {
+  width: inherit;
+  border-radius: 0;
+}
+
+/* Helper Class =============================*/
+/* ================================================*/
+/* line 78, ../../Private/Sass/custom.scss */
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+  color: #133a4c;
+}
+
+/* line 83, ../../Private/Sass/custom.scss */
+.inactiveLink:hover {
+  text-decoration: none;
+  color: #133a4c;
+}
+
+/* line 87, ../../Private/Sass/custom.scss */
+.col-no-padding {
+  padding: 0;
+}
+
+/* General Styles =============================*/
+/* ================================================*/
+/* line 92, ../../Private/Sass/custom.scss */
+header {
+  background-color: #00A29A;
+  padding: 8px 0;
+  position: relative;
+  height: 54px;
+}
+/* line 97, ../../Private/Sass/custom.scss */
+header .logo {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+}
+/* line 102, ../../Private/Sass/custom.scss */
+header .form-inline {
+  position: relative;
+  float: right;
+}
+/* line 105, ../../Private/Sass/custom.scss */
+header .form-inline .form-control {
+  background-color: inherit;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  width: 250px;
+  margin-right: 20px;
+  border: solid 2px #80D0CC;
+  height: 36px;
+}
+/* line 114, ../../Private/Sass/custom.scss */
+header .form-inline .form-control::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+/* line 118, ../../Private/Sass/custom.scss */
+header .form-inline .form-control::-moz-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+/* line 123, ../../Private/Sass/custom.scss */
+header .form-inline button {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  position: absolute;
+  top: 2px;
+  left: 200px;
+}
+/* line 131, ../../Private/Sass/custom.scss */
+header .form-inline .nav-icons {
+  margin-right: 24px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+}
+/* line 138, ../../Private/Sass/custom.scss */
+header .form-inline .nav-icons:hover {
+  text-decoration: none;
+}
+/* line 141, ../../Private/Sass/custom.scss */
+header .form-inline i.fa {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 30px;
+  margin-right: 8px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  z-index: 1;
+  font-size: 20px;
+}
+/* line 153, ../../Private/Sass/custom.scss */
+header .form-inline img {
+  height: 36px;
+  width: 36px;
+  border: 2px solid #fff;
+  margin-right: 16px;
+}
+
+/* line 161, ../../Private/Sass/custom.scss */
+.header-blue {
+  background-color: #31A2D8;
+  color: #fff;
+  border-radius: 3px 3px 0 0;
+  padding: 15px 0 10px;
+}
+/* line 167, ../../Private/Sass/custom.scss */
+.header-blue .col-sm-2.text-center img {
+  width: 120px;
+  height: 120px;
+}
+/* line 172, ../../Private/Sass/custom.scss */
+.header-blue h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0;
+}
+/* line 176, ../../Private/Sass/custom.scss */
+.header-blue h1 span {
+  font-size: 18px;
+  font-weight: normal;
+}
+/* line 181, ../../Private/Sass/custom.scss */
+.header-blue p {
+  font-size: 18px;
+  font-weight: normal;
+}
+/* line 185, ../../Private/Sass/custom.scss */
+.header-blue ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 189, ../../Private/Sass/custom.scss */
+.header-blue ul li {
+  color: #133a4c;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  margin-right: 18px;
+}
+/* line 195, ../../Private/Sass/custom.scss */
+.header-blue ul li span {
+  font-weight: normal;
+  display: block;
+  font-size: 12px;
+}
+/* line 200, ../../Private/Sass/custom.scss */
+.header-blue ul li a {
+  font-size: 14px;
+  color: #133a4c;
+}
+/* line 207, ../../Private/Sass/custom.scss */
+.header-blue .col-sm-4 .fa-bookmark-o {
+  font-size: 50px;
+  position: absolute;
+  right: 18px;
+  top: -18px;
+  color: #fff;
+}
+/* line 216, ../../Private/Sass/custom.scss */
+.header-blue .col-sm-4 .fa-bookmark-o:hover:before {
+  content: "\f02e";
+  cursor: pointer;
+}
+/* line 220, ../../Private/Sass/custom.scss */
+.header-blue .col-sm-4 ul {
+  list-style-type: none;
+  margin-top: 5px;
+  padding-left: 0;
+}
+/* line 224, ../../Private/Sass/custom.scss */
+.header-blue .col-sm-4 ul li {
+  /*font-size: 18px;
+  color: $black;
+  line-height: 24px;
+  margin-bottom: 15px;
+  strong{
+  	font-weight: 600;
+  	width: 100px;
+  	display: inline-block;
+  }*/
+  margin-top: 15px;
+}
+/* line 235, ../../Private/Sass/custom.scss */
+.header-blue .col-sm-4 ul li a.tag {
+  background-color: #133a4c;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 12px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* line 248, ../../Private/Sass/custom.scss */
+.header-pink {
+  background-color: #e53272;
+}
+/* line 250, ../../Private/Sass/custom.scss */
+.header-pink .row .col-xs-6:first-child {
+  border-right: solid 2px #bf2a5e;
+}
+/* line 254, ../../Private/Sass/custom.scss */
+.header-pink a {
+  font-size: 18px;
+  line-height: 48px;
+  color: #fff;
+  font-weight: 600;
+  display: block;
+}
+/* line 260, ../../Private/Sass/custom.scss */
+.header-pink a:hover {
+  text-decoration: none;
+  color: #700e31;
+}
+
+/* line 266, ../../Private/Sass/custom.scss */
+.content-main {
+  margin: 24px 0;
+  background-color: #F4F7F9;
+}
+/* line 270, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row {
+  border: solid 1px #9babb4;
+}
+/* line 272, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.body-header {
+  border-top: solid 1px #9babb4;
+  border-bottom: solid 1px #9babb4;
+  padding: 25px 65px;
+}
+/* line 276, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.body-header h2 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 700;
+  color: #133a4c;
+}
+/* line 283, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document {
+  border-bottom: solid 1px #9babb4;
+  padding: 15px 6%;
+}
+/* line 286, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .num {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  padding-top: 3px;
+}
+/* line 292, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 {
+  margin-top: 0;
+  color: #133a4c;
+  font-size: 28px;
+}
+/* line 296, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 + a {
+  font-size: 14px;
+  color: #e53272;
+  font-weight: 700;
+}
+/* line 300, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 + a .fa {
+  padding-left: 5px;
+}
+/* line 303, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 + a[aria-expanded="false"] .fa-chevron-up {
+  display: none;
+}
+/* line 306, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 + a[aria-expanded="true"] .fa-chevron-down {
+  display: none;
+}
+/* line 311, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h4 {
+  font-size: 18px;
+  color: #133a4c;
+  margin: 0;
+}
+/* line 316, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse {
+  padding: 25px 15px;
+}
+/* line 318, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweets-panel {
+  margin-bottom: 24px;
+}
+/* line 321, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .panel {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+/* line 325, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet {
+  font-family: 'Helvetica Neue';
+}
+/* line 327, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .avatar {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  float: left;
+  clear: both;
+  margin: 0 10px 0 14px;
+}
+/* line 335, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet strong {
+  font-size: 14px;
+  color: #292F33;
+}
+/* line 339, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .username {
+  font-size: 13px;
+  color: #8899a6;
+}
+/* line 343, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet small.time {
+  color: #8899a6;
+}
+/* line 345, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet small.time:before {
+  content: "\00b7";
+  margin-right: 2px;
+  font-size: 13px;
+}
+/* line 351, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .col-sm-7 {
+  border-right: solid 2px rgba(74, 74, 74, 0.12);
+}
+/* line 354, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .col-sm-5 {
+  text-align: center;
+  min-height: 100px;
+}
+/* line 357, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .col-sm-5:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing */
+}
+/* line 364, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .col-sm-5 a {
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 369, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .quote-tweet {
+  margin: 12px 14px 0 72px;
+  border: solid 1px #e1e8ed;
+  border-radius: 4px;
+}
+/* line 373, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .quote-tweet .quote-tweet-inner-container {
+  padding: 12px;
+}
+/* line 377, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .tweet-context {
+  margin-bottom: 3px;
+  margin-left: 33px;
+}
+/* line 380, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .tweet-context .fa-retweet {
+  margin-right: 6px;
+  color: #77B255;
+}
+/* line 385, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .media-container {
+  margin: 12px 14px 12px 72px;
+  max-height: 252px;
+  max-width: 506px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* line 391, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .media-container .photo-container {
+  width: 100%;
+  height: 100%;
+}
+/* line 395, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweet .media-container .img {
+  width: 100%;
+}
+/* line 401, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower {
+  height: 646px;
+}
+/* line 403, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower h4 {
+  font-size: 16px;
+  color: #133a4c;
+  font-weight: 600;
+  margin: 25px 0;
+}
+/* line 409, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 413, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 48px 48px 0;
+}
+/* line 417, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower ul li:last-child {
+  margin-right: 0;
+}
+/* line 420, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower ul li img {
+  width: 64px;
+  height: 64px;
+  border: solid 2px #9babb4;
+}
+/* line 430, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.info {
+  background-color: #31A2D8;
+  padding: 15px 65px;
+  margin-top: -1px;
+}
+/* line 434, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+/* line 439, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.info a {
+  margin-right: 24px;
+}
+/* line 441, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.info a:last-child {
+  margin-right: 0;
+}
+/* line 444, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.info a img {
+  width: 48px;
+  height: 48px;
+  border: solid 2px #fff;
+}
+/* line 452, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info {
+  padding: 15px 65px;
+}
+/* line 454, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info h2 {
+  font-size: 36px;
+  margin: 10px 0 30px;
+  font-weight: 700;
+  color: #133a4c;
+}
+/* line 460, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info h3 {
+  color: #4a4a4a;
+  font-size: 28px;
+}
+/* line 464, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info .people {
+  padding: 40px 0;
+}
+/* line 466, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info .people img {
+  width: 64px;
+  height: 64px;
+}
+/* line 470, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info .people h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 474, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info .people h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0;
+}
+/* line 478, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info .people h3 span {
+  font-size: 14px;
+  display: block;
+}
+/* line 484, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info a.btn-primary {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* line 493, ../../Private/Sass/custom.scss */
+.content-inner {
+  margin: 37px 0;
+  padding: 0;
+}
+/* line 499, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header h2 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 700;
+  color: #133a4c;
+}
+/* line 505, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #4a4a4a;
+}
+/* line 510, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets {
+  padding: 25px 80px;
+}
+/* line 513, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel:first-child {
+  border-radius: 0;
+}
+/* line 515, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel:first-child ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 6px 0;
+}
+/* line 519, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel:first-child ul li {
+  color: #666;
+  font-size: 16px;
+  float: left;
+  margin-right: 19px;
+}
+/* line 524, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel:first-child ul li a {
+  font-size: 16px;
+  color: #31A2D8;
+  display: block;
+}
+/* line 529, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel:first-child ul li:last-child {
+  margin-right: 0;
+}
+/* line 536, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel.tweet .col-sm-7 {
+  border-right: solid 2px rgba(74, 74, 74, 0.12);
+}
+/* line 539, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel.tweet .col-sm-5 {
+  text-align: center;
+  min-height: 100px;
+}
+/* line 542, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel.tweet .col-sm-5:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing */
+}
+/* line 549, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .panel.tweet .col-sm-5 a {
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 560, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .follower a.btn {
+  padding: 6px 12px;
+}
+/* line 562, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .follower a.btn.btn-xs {
+  padding: 1px 8px;
+}
+/* line 566, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .follower h4 {
+  font-size: 16px;
+  color: #133a4c;
+  font-weight: 600;
+  margin: 25px 0;
+}
+/* line 572, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .follower ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+/* line 576, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .follower ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 43px 16px 0;
+}
+/* line 580, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .follower ul li:last-child {
+  margin-right: 0;
+}
+/* line 583, ../../Private/Sass/custom.scss */
+.content-inner .body-contents > .row.body-header .document-tweets .follower ul li img {
+  width: 48px;
+  height: 48px;
+  border: solid 1px #fff;
+}
+
+/* line 597, ../../Private/Sass/custom.scss */
+footer {
+  background-color: #333;
+  height: 134px;
+}
