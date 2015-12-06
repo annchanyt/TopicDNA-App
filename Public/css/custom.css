@@ -566,41 +566,41 @@ footer {
 
 /* General Styles =============================*/
 /* ================================================*/
-/* line 473, ../../Private/Sass/custom.scss */
+/* line 474, ../../Private/Sass/custom.scss */
 .header-blue {
   background-color: #31A2D8;
   color: #fff;
   border-radius: 3px 3px 0 0;
   padding: 15px 0 10px;
 }
-/* line 479, ../../Private/Sass/custom.scss */
+/* line 480, ../../Private/Sass/custom.scss */
 .header-blue .col-sm-2.text-center img {
   width: 120px;
   height: 120px;
 }
-/* line 484, ../../Private/Sass/custom.scss */
+/* line 485, ../../Private/Sass/custom.scss */
 .header-blue h1 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
 }
-/* line 488, ../../Private/Sass/custom.scss */
+/* line 489, ../../Private/Sass/custom.scss */
 .header-blue h1 span {
   font-size: 18px;
   font-weight: normal;
 }
-/* line 493, ../../Private/Sass/custom.scss */
+/* line 494, ../../Private/Sass/custom.scss */
 .header-blue p {
   font-size: 18px;
   font-weight: normal;
 }
-/* line 497, ../../Private/Sass/custom.scss */
+/* line 498, ../../Private/Sass/custom.scss */
 .header-blue ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 501, ../../Private/Sass/custom.scss */
+/* line 502, ../../Private/Sass/custom.scss */
 .header-blue ul li {
   color: #133a4c;
   font-size: 18px;
@@ -608,18 +608,30 @@ footer {
   float: left;
   margin-right: 18px;
 }
+<<<<<<< HEAD
 /* line 507, ../../Private/Sass/custom.scss */
+=======
+/* line 508, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-blue ul li span {
   font-weight: normal;
   display: block;
   font-size: 12px;
 }
+<<<<<<< HEAD
 /* line 512, ../../Private/Sass/custom.scss */
+=======
+/* line 513, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-blue ul li a {
   font-size: 14px;
   color: #133a4c;
 }
+<<<<<<< HEAD
 /* line 519, ../../Private/Sass/custom.scss */
+=======
+/* line 520, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-blue .col-sm-4 .fa-bookmark-o, .header-blue .col-sm-4 .fa-bookmark {
   font-size: 50px;
   position: absolute;
@@ -627,18 +639,31 @@ footer {
   top: -18px;
   color: #fff;
 }
+<<<<<<< HEAD
 /* line 526, ../../Private/Sass/custom.scss */
 .header-blue .col-sm-4 span.fa:hover:before {
   content: "\f02e";
   cursor: pointer;
 }
 /* line 530, ../../Private/Sass/custom.scss */
+=======
+/* line 527, ../../Private/Sass/custom.scss */
+.header-blue .col-sm-4 .fa-bookmark-o:hover:before {
+  content: "\f02e";
+  cursor: pointer;
+}
+/* line 531, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-blue .col-sm-4 ul {
   list-style-type: none;
   margin-top: 5px;
   padding-left: 0;
 }
+<<<<<<< HEAD
 /* line 534, ../../Private/Sass/custom.scss */
+=======
+/* line 535, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-blue .col-sm-4 ul li {
   /*font-size: 18px;
   color: $black;
@@ -651,7 +676,11 @@ footer {
   }*/
   margin-top: 15px;
 }
+<<<<<<< HEAD
 /* line 545, ../../Private/Sass/custom.scss */
+=======
+/* line 546, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-blue .col-sm-4 ul li a.tag {
   background-color: #133a4c;
   color: #fff;
@@ -662,6 +691,7 @@ footer {
   display: inline-block;
 }
 
+<<<<<<< HEAD
 /* line 558, ../../Private/Sass/custom.scss */
 .header-pink {
   background-color: #e53272;
@@ -671,6 +701,17 @@ footer {
   border-right: solid 2px #bf2a5e;
 }
 /* line 564, ../../Private/Sass/custom.scss */
+=======
+/* line 559, ../../Private/Sass/custom.scss */
+.header-pink {
+  background-color: #e53272;
+}
+/* line 561, ../../Private/Sass/custom.scss */
+.header-pink .row .col-xs-6:first-child {
+  border-right: solid 2px #bf2a5e;
+}
+/* line 565, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-pink a {
   font-size: 18px;
   line-height: 48px;
@@ -678,58 +719,95 @@ footer {
   font-weight: 600;
   display: block;
 }
+<<<<<<< HEAD
 /* line 570, ../../Private/Sass/custom.scss */
+=======
+/* line 571, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .header-pink a:hover {
   text-decoration: none;
   color: #700e31;
 }
 
+<<<<<<< HEAD
 /* line 576, ../../Private/Sass/custom.scss */
+=======
+/* line 577, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main {
   margin: 24px 0;
   background-color: #F4F7F9;
 }
+<<<<<<< HEAD
 /* line 580, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row {
   border: solid 1px #9babb4;
 }
 /* line 582, ../../Private/Sass/custom.scss */
+=======
+/* line 581, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row {
+  border: solid 1px #9babb4;
+}
+/* line 583, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.body-header {
   border-top: solid 1px #9babb4;
   border-bottom: solid 1px #9babb4;
   padding: 25px 65px;
 }
+<<<<<<< HEAD
 /* line 586, ../../Private/Sass/custom.scss */
+=======
+/* line 587, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.body-header h2 {
   font-size: 36px;
   margin: 0;
   font-weight: 700;
   color: #133a4c;
 }
+<<<<<<< HEAD
 /* line 593, ../../Private/Sass/custom.scss */
+=======
+/* line 594, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document {
   border-bottom: solid 1px #9babb4;
   padding: 15px 6%;
 }
+<<<<<<< HEAD
 /* line 596, ../../Private/Sass/custom.scss */
+=======
+/* line 597, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document .num {
   font-size: 20px;
   font-weight: 600;
   display: block;
   padding-top: 3px;
 }
+<<<<<<< HEAD
 /* line 602, ../../Private/Sass/custom.scss */
+=======
+/* line 603, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document h3 {
   margin-top: 0;
   color: #133a4c;
   font-size: 28px;
 }
+<<<<<<< HEAD
 /* line 606, ../../Private/Sass/custom.scss */
+=======
+/* line 607, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document h3 + a {
   font-size: 14px;
   color: #e53272;
   font-weight: 700;
 }
+<<<<<<< HEAD
 /* line 610, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row.document h3 + a .fa {
   padding-left: 5px;
@@ -743,11 +821,27 @@ footer {
   display: none;
 }
 /* line 621, ../../Private/Sass/custom.scss */
+=======
+/* line 611, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 + a .fa {
+  padding-left: 5px;
+}
+/* line 614, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 + a[aria-expanded="false"] .fa-chevron-up {
+  display: none;
+}
+/* line 617, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document h3 + a[aria-expanded="true"] .fa-chevron-down {
+  display: none;
+}
+/* line 622, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document h4 {
   font-size: 18px;
   color: #133a4c;
   margin: 0;
 }
+<<<<<<< HEAD
 /* line 626, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row.document .document-collapse {
   padding: 25px 15px;
@@ -757,54 +851,98 @@ footer {
   margin-bottom: 24px;
 }
 /* line 631, ../../Private/Sass/custom.scss */
+=======
+/* line 627, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse {
+  padding: 25px 15px;
+}
+/* line 629, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .tweets-panel {
+  margin-bottom: 24px;
+}
+/* line 632, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document .document-collapse .panel {
   margin-bottom: 0;
   border-radius: 0;
 }
+<<<<<<< HEAD
 /* line 635, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row.document .document-collapse .follower {
   height: 646px;
 }
 /* line 637, ../../Private/Sass/custom.scss */
+=======
+/* line 636, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower {
+  height: 646px;
+}
+/* line 638, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document .document-collapse .follower h4 {
   font-size: 16px;
   color: #133a4c;
   font-weight: 600;
   margin: 25px 0;
 }
+<<<<<<< HEAD
 /* line 643, ../../Private/Sass/custom.scss */
+=======
+/* line 644, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document .document-collapse .follower ul {
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
 /* line 647, ../../Private/Sass/custom.scss */
+=======
+/* line 648, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document .document-collapse .follower ul li {
   list-style-type: none;
   display: inline-block;
   margin: 0 48px 48px 0;
 }
+<<<<<<< HEAD
 /* line 651, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row.document .document-collapse .follower ul li:last-child {
   margin-right: 0;
 }
 /* line 654, ../../Private/Sass/custom.scss */
+=======
+/* line 652, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.document .document-collapse .follower ul li:last-child {
+  margin-right: 0;
+}
+/* line 655, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.document .document-collapse .follower ul li img {
   width: 64px;
   height: 64px;
   border: solid 2px #9babb4;
 }
+<<<<<<< HEAD
 /* line 664, ../../Private/Sass/custom.scss */
+=======
+/* line 665, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.info {
   background-color: #31A2D8;
   padding: 15px 65px;
   margin-top: -1px;
 }
+<<<<<<< HEAD
 /* line 668, ../../Private/Sass/custom.scss */
+=======
+/* line 669, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
+<<<<<<< HEAD
 /* line 673, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row.info a {
   margin-right: 24px;
@@ -814,65 +952,120 @@ footer {
   margin-right: 0;
 }
 /* line 678, ../../Private/Sass/custom.scss */
+=======
+/* line 674, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.info a {
+  margin-right: 24px;
+}
+/* line 676, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.info a:last-child {
+  margin-right: 0;
+}
+/* line 679, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.info a img {
   width: 48px;
   height: 48px;
   border: solid 2px #fff;
 }
+<<<<<<< HEAD
 /* line 686, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row.more-info {
   padding: 15px 65px;
 }
 /* line 688, ../../Private/Sass/custom.scss */
+=======
+/* line 687, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info {
+  padding: 15px 65px;
+}
+/* line 689, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.more-info h2 {
   font-size: 36px;
   margin: 10px 0 30px;
   font-weight: 700;
   color: #133a4c;
 }
+<<<<<<< HEAD
 /* line 694, ../../Private/Sass/custom.scss */
+=======
+/* line 695, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.more-info h3 {
   color: #4a4a4a;
   font-size: 28px;
 }
+<<<<<<< HEAD
 /* line 698, ../../Private/Sass/custom.scss */
 .content-main .body-contents > .row.more-info .people {
   padding: 40px 0;
 }
 /* line 700, ../../Private/Sass/custom.scss */
+=======
+/* line 699, ../../Private/Sass/custom.scss */
+.content-main .body-contents > .row.more-info .people {
+  padding: 40px 0;
+}
+/* line 701, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.more-info .people img {
   width: 64px;
   height: 64px;
 }
+<<<<<<< HEAD
 /* line 704, ../../Private/Sass/custom.scss */
+=======
+/* line 705, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.more-info .people h4 {
   font-size: 16px;
   font-weight: 600;
 }
+<<<<<<< HEAD
 /* line 708, ../../Private/Sass/custom.scss */
+=======
+/* line 709, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.more-info .people h3 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
 }
+<<<<<<< HEAD
 /* line 712, ../../Private/Sass/custom.scss */
+=======
+/* line 713, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.more-info .people h3 span {
   font-size: 14px;
   display: block;
 }
+<<<<<<< HEAD
 /* line 718, ../../Private/Sass/custom.scss */
+=======
+/* line 719, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-main .body-contents > .row.more-info a.btn-primary {
   font-size: 18px;
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 /* line 726, ../../Private/Sass/custom.scss */
+=======
+/* line 727, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .content-inner {
   margin: 37px 0;
   padding: 0;
 }
 
+<<<<<<< HEAD
 /* line 731, ../../Private/Sass/custom.scss */
+=======
+/* line 732, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .body-header h2 {
   font-size: 36px;
   margin: 0;
@@ -880,26 +1073,42 @@ footer {
   color: #133a4c;
 }
 
+<<<<<<< HEAD
 /* line 739, ../../Private/Sass/custom.scss */
+=======
+/* line 740, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .aside ul {
   list-style-type: none;
   padding: 0;
   margin: 6px 0;
 }
+<<<<<<< HEAD
 /* line 743, ../../Private/Sass/custom.scss */
+=======
+/* line 744, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .aside ul li {
   color: #666;
   font-size: 16px;
   display: block;
   margin-bottom: 6px;
 }
+<<<<<<< HEAD
 /* line 748, ../../Private/Sass/custom.scss */
+=======
+/* line 749, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .aside ul li a {
   font-size: 16px;
   color: #31A2D8;
   display: block;
 }
+<<<<<<< HEAD
 /* line 753, ../../Private/Sass/custom.scss */
+=======
+/* line 754, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .aside ul li:last-child {
   margin-right: 0;
 }
@@ -990,96 +1199,168 @@ footer {
 }
 
 /* List */
+<<<<<<< HEAD
 /* line 832, ../../Private/Sass/custom.scss */
+=======
+/* line 761, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .heading-text {
   margin-bottom: 40px;
 }
 
+<<<<<<< HEAD
 /* line 835, ../../Private/Sass/custom.scss */
 .tweets-list {
   padding: 5px 80px;
 }
 /* line 837, ../../Private/Sass/custom.scss */
+=======
+/* line 764, ../../Private/Sass/custom.scss */
+.tweets-list {
+  padding: 5px 80px;
+}
+/* line 766, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .checkbox {
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
 /* line 840, ../../Private/Sass/custom.scss */
+=======
+/* line 769, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .checkbox label {
   color: transparent;
   padding-left: 10px;
   margin-top: 25px;
   margin-bottom: -20px;
 }
+<<<<<<< HEAD
 /* line 845, ../../Private/Sass/custom.scss */
+=======
+/* line 774, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .checkbox label:before {
   color: #666;
   font-size: 35px;
 }
+<<<<<<< HEAD
 /* line 851, ../../Private/Sass/custom.scss */
+=======
+/* line 780, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .header-blue {
   padding: 8px 0;
   border-radius: 4px;
 }
+<<<<<<< HEAD
 /* line 854, ../../Private/Sass/custom.scss */
+=======
+/* line 783, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .header-blue .col-sm-2.text-center img {
   width: 60px;
   height: 60px;
 }
+<<<<<<< HEAD
 /* line 858, ../../Private/Sass/custom.scss */
 .tweets-list .header-blue .col-sm-4 ul li {
   margin: 0 8px 8px 0;
 }
 /* line 860, ../../Private/Sass/custom.scss */
+=======
+/* line 787, ../../Private/Sass/custom.scss */
+.tweets-list .header-blue .col-sm-4 ul li {
+  margin: 0 8px 8px 0;
+}
+/* line 789, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .header-blue .col-sm-4 ul li a {
   background-color: #ffb300;
   padding: 2px 6px;
   font-size: 12px;
 }
+<<<<<<< HEAD
 /* line 866, ../../Private/Sass/custom.scss */
+=======
+/* line 795, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .header-blue .col-sm-4 span.fa-bookmark-o, .tweets-list .header-blue .col-sm-4 span.fa-bookmark {
   font-size: 26px;
   top: -10px;
 }
+<<<<<<< HEAD
 /* line 870, ../../Private/Sass/custom.scss */
+=======
+/* line 799, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .tweets-list .header-blue .col-sm-4 span.fa-bookmark:hover:before {
   content: "\f00d";
   font-size: 24px;
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* line 877, ../../Private/Sass/custom.scss */
+=======
+/* line 806, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .pager-btns {
   margin-top: 35px;
   overflow: hidden;
 }
+<<<<<<< HEAD
 /* line 881, ../../Private/Sass/custom.scss */
 .pager-btns li:first-child {
   margin-right: 210px;
 }
 /* line 885, ../../Private/Sass/custom.scss */
+=======
+/* line 810, ../../Private/Sass/custom.scss */
+.pager-btns li:first-child {
+  margin-right: 210px;
+}
+/* line 814, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .pager-btns .pager li > a, .pager-btns .pager li > span {
   background-color: inherit;
   border-color: #31A2D8;
   color: #31A2D8;
 }
+<<<<<<< HEAD
 /* line 889, ../../Private/Sass/custom.scss */
+=======
+/* line 818, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .pager-btns .pager li > a:hover, .pager-btns .pager li > a:focus, .pager-btns .pager li > span:hover, .pager-btns .pager li > span:focus {
   background-color: #31A2D8;
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 895, ../../Private/Sass/custom.scss */
 .pagination-btns {
   margin-bottom: 35px;
 }
 /* line 897, ../../Private/Sass/custom.scss */
+=======
+/* line 824, ../../Private/Sass/custom.scss */
+.pagination-btns {
+  margin-bottom: 35px;
+}
+/* line 826, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .pagination-btns .pagination > li > a, .pagination-btns .pagination > li > span {
   background-color: inherit;
   color: #31A2D8;
   border-color: #31A2D8;
 }
+<<<<<<< HEAD
 /* line 901, ../../Private/Sass/custom.scss */
+=======
+/* line 830, ../../Private/Sass/custom.scss */
+>>>>>>> gh-pages
 .pagination-btns .pagination > li > a:hover, .pagination-btns .pagination > li > a:focus, .pagination-btns .pagination > li > span:hover, .pagination-btns .pagination > li > span:focus {
   background-color: #31A2D8;
   color: #fff;
