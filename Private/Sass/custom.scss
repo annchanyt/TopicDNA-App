@@ -1,5 +1,11 @@
-/*@import 'compass/css3';*/
+.profile-container {
+  margin-bottom:20px;
+  padding: 10px;
+}
 
+.borderless td, .borderless th {
+  border: none;
+}
 /* Colours =============================*/
 /* ================================================*/
 // Neutrals
@@ -34,6 +40,7 @@ $blue : #31A2D8;
 $green : #00A29A;
 $pink : #e53272;
 $deep-pink: #bf2a5e;
+$yellow: #ffb300;
 $input-color-placeholder: #B2E2E0 !default;
 
 /* Typography =============================*/
@@ -43,6 +50,19 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	background-color: $body;
 }
+/* Custom Checkbox =============================*/
+/* ================================================*/
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 8px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f14a"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 3px; } /* allow space for check mark */
 /* Buttons =============================*/
 /* ================================================*/
 .btn{
@@ -70,6 +90,17 @@ body{
 		font-size: 20px;
 		border-radius: 25px;
 		padding: 4px 20px;
+		&.sml-bdr-only{
+			background-color: inherit;
+			border-width: 2px;
+			color: $pink;
+			padding: 2px 10px;
+			font-size: 16px;
+			&:hover{
+				color:$white;
+				border-width: 2px;
+			}
+		}
 	}
 .btn-danger:hover{
 	background-color: darken($pink, 10%);
@@ -488,14 +519,12 @@ footer{
 		}
 	}
 	.col-sm-4{
-		.fa-bookmark-o{
+		.fa-bookmark-o, .fa-bookmark{
 			font-size: 50px;
 		  position: absolute;
 		  right: 18px;
 		  top: -18px;
 			color: $white;
-
-
 		}
 		.fa-bookmark-o:hover:before{
 			content: "\f02e";
@@ -727,6 +756,82 @@ footer{
 			&:last-child{
 				margin-right: 0;
 			}
+		}
+	}
+}
+/* List */
+.heading-text{
+margin-bottom: 40px;
+}
+.tweets-list{
+	padding: 5px 80px;
+	.checkbox{
+		margin: 0;
+		padding: 0;
+		label{
+			color: transparent;
+			padding-left: 10px;
+			margin-top: 25px;
+			margin-bottom: -20px;
+			&:before{
+				color: $black3;
+				font-size: 35px;
+			}
+		}
+	}
+	.header-blue{
+		padding: 8px 0;
+		border-radius: 4px;
+		.col-sm-2.text-center img{
+			width: 60px;
+			height: 60px;
+		}
+		.col-sm-4 ul li{
+			margin: 0 8px 8px 0;
+			a{
+				background-color: $yellow;
+				padding: 2px 6px;
+				font-size: 12px;
+			}
+		}
+		.col-sm-4 span.fa-bookmark-o, .col-sm-4 span.fa-bookmark{
+			font-size: 26px;
+			top: -10px;
+		}
+		.col-sm-4 span.fa-bookmark:hover:before{
+			content: "\f00d";
+			font-size: 24px;
+			cursor: pointer;
+		}
+	}
+}
+.pager-btns{
+	margin-top: 35px;
+	overflow: hidden;
+	li{
+		&:first-child{
+			margin-right:210px;
+		}
+	}
+	.pager li > a, .pager li > span{
+		background-color: inherit;
+		border-color: $blue;
+		color: $blue;
+		&:hover, &:focus{
+			background-color:$blue;
+			color: $white;
+		}
+	}
+}
+.pagination-btns{
+	margin-bottom: 35px;
+	.pagination > li > a, .pagination > li > span{
+		background-color:inherit;
+		color: $blue;
+		border-color: $blue;
+		&:hover, &:focus{
+			background-color:$blue;
+			color: $white;
 		}
 	}
 }
