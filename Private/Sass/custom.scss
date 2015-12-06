@@ -517,14 +517,18 @@ footer{
 		}
 	}
 	.col-sm-4{
+<<<<<<< HEAD
 		.fa-bookmark-o, .fa-bookmark{
+=======
+		span.fa{
+>>>>>>> 621ed9eb2ff2a68d62185b2c26110e5910f09190
 			font-size: 50px;
-		  position: absolute;
-		  right: 18px;
-		  top: -18px;
+			position: absolute;
+			right: 18px;
+			top: -18px;
 			color: $white;
 		}
-		.fa-bookmark-o:hover:before{
+		span.fa:hover:before{
 			content: "\f02e";
 			cursor: pointer;
 		}
@@ -753,6 +757,78 @@ footer{
 			}
 			&:last-child{
 				margin-right: 0;
+			}
+		}
+		.heading-text{
+			margin-bottom: 40px;
+		}
+		.tweets-list{
+			padding: 5px 80px;
+			.checkbox{
+				margin: 0;
+				padding: 0;
+				label{
+					color: transparent;
+					padding-left: 10px;
+					margin-top: 25px;
+					margin-bottom: -20px;
+					&:before{
+						color: $black3;
+						font-size: 35px;
+					}
+				}
+			}
+
+			.header-blue{
+				padding: 8px 0;
+				border-radius: 4px;
+				.col-sm-2.text-center img{
+					width: 60px;
+					height: 60px;
+				}
+				.col-sm-4 ul li{
+					margin: 0 8px 8px 0;
+					a{
+						background-color: $yellow;
+						padding: 2px 6px;
+						font-size: 12px;
+					}
+				}
+				.col-sm-4 span.fa{
+					font-size: 26px;
+    				top: -10px;
+				}
+			}
+
+		}
+		.pager-btns{
+			margin-top: 35px;
+			overflow: hidden;
+			li{
+				&:first-child{
+					margin-right:210px;
+				}
+			}
+			.pager li > a, .pager li > span{
+				background-color: inherit;
+				border-color: $blue;
+				color: $blue;
+				&:hover, &:focus{
+					background-color:$blue;
+					color: $white;
+				}
+			}
+		}
+		.pagination-btns{
+			margin-bottom: 35px;
+			.pagination > li > a, .pagination > li > span{
+				background-color:inherit;
+				color: $blue;
+				border-color: $blue;
+				&:hover, &:focus{
+					background-color:$blue;
+					color: $white;
+				}
 			}
 		}
 	}
