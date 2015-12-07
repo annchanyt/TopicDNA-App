@@ -369,12 +369,15 @@ footer{
  //          align-items: center;
  //  -webkit-justify-content: center;
  //          justify-content: center;
-  &:before{
-		content: '';
-		display: inline-block;
-		height: 100%; 
-		vertical-align: middle;
-		margin-right: -0.25em; // Adjusts for spacing
+ 	& .panel-body {
+ 		height: 50%;
+	  &:before{
+			content: '';
+			display: inline-block;
+			height: 100%; 
+			vertical-align: middle;
+			margin-right: -0.25em; // Adjusts for spacing
+		}
 	}
 }
 .t-action-btns{
@@ -633,7 +636,7 @@ footer{
 						border-radius:0;
 					}
 					.follower{
-						height: 646px;
+						/*height: 646px;*/
 						h4{
 							font-size: 16px;
 							color: $black;
@@ -643,7 +646,7 @@ footer{
 						ul{
 							margin: 0;
 							padding: 0;
-						
+							
 							li{
 								list-style-type: none;
 								display: inline-block;
@@ -655,6 +658,11 @@ footer{
 									width: 64px;
 									height: 64px;
 									border: solid 2px $grey1;
+								}
+							}
+							&:last-child{
+								li{
+									margin-bottom:0;
 								}
 							}
 						}

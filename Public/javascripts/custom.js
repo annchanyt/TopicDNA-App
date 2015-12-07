@@ -10,4 +10,7 @@ $(document).ready(function() {
     $(".content-main .body-contents > .row.document h3 + a").parent().click(function(){
     	$(this).find("a[data-toggle]").trigger("click");
     });
+
+    $(".content-inner .row > div > div").matchHeight();
+    $(".document-collapse .tweets-panel > div > div").matchHeight();
 });
