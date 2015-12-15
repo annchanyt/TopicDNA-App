@@ -85,23 +85,23 @@ input[type=checkbox]:checked + label:before { letter-spacing: 3px; } /* allow sp
 }
 // btn size ----------/
 .btn-danger, .btn-danger:visited{
-		background-color: $pink;
-		border: solid 1px $pink;
-		font-size: 20px;
-		border-radius: 25px;
-		padding: 4px 20px;
-		&.sml-bdr-only{
-			background-color: inherit;
+	background-color: $pink;
+	border: solid 1px $pink;
+	font-size: 20px;
+	border-radius: 25px;
+	padding: 4px 20px;
+	&.sml-bdr-only{
+		background-color: inherit;
+		border-width: 2px;
+		color: $pink;
+		padding: 2px 10px;
+		font-size: 16px;
+		&:hover{
+			color:$white;
 			border-width: 2px;
-			color: $pink;
-			padding: 2px 10px;
-			font-size: 16px;
-			&:hover{
-				color:$white;
-				border-width: 2px;
-			}
 		}
 	}
+}
 .btn-danger:hover{
 	background-color: darken($pink, 10%);
 	border: solid 1px darken($pink, 10%);
@@ -950,8 +950,8 @@ margin-bottom: 40px;
 
 .map{
 
-	margin: 65px 0;
-	min-height: 500px;
+	margin: 0;
+	min-height: 450px;
 	text-align: center;
 
 	.showbox {
