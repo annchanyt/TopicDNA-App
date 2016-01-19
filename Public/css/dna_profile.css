@@ -1347,7 +1347,7 @@ footer {
 }
 /* line 1198, ../../Private/Sass/dna_profile.scss */
 #places-map .map-location-marker {
-  background: url('../images/pin.png?1449589688') no-repeat;
+  background: url('../images/pin.png?1449678430') no-repeat;
   cursor: pointer;
   position: absolute;
   height: 36px;
@@ -1681,171 +1681,119 @@ footer {
   font-size: 11px;
   color: #979797;
 }
-/* line 1488, ../../Private/Sass/dna_profile.scss */
+/* line 1489, ../../Private/Sass/dna_profile.scss */
+.body-contents .tweet-panel.panel-default.tweet-panel a, .body-contents .tweet-panel.panel-default.tweet-panel a:hover {
+  text-decoration: none;
+}
+/* line 1492, ../../Private/Sass/dna_profile.scss */
+.body-contents .tweet-panel.panel-default.tweet-panel .panel-footer {
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* line 1499, ../../Private/Sass/dna_profile.scss */
+.body-contents .tweet-panel.panel-default.tweet-panel .fa-chevron-right {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+/* line 1505, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info {
   border: none;
 }
-/* line 1490, ../../Private/Sass/dna_profile.scss */
+/* line 1507, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info .panel-heading {
   background-color: #30a3d9;
 }
-/* line 1492, ../../Private/Sass/dna_profile.scss */
+/* line 1509, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info .panel-heading a.btn {
   color: #30a3d9;
 }
-/* line 1496, ../../Private/Sass/dna_profile.scss */
+/* line 1513, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info .panel-footer {
   background-color: #30a3d9;
-  font-size: 20px;
-  font-style: italic;
-  color: #fff;
-  font-weight: 400;
-  line-height: 26px;
+  height: 47px;
 }
-/* line 1503, ../../Private/Sass/dna_profile.scss */
-.body-contents .tweet-panel.panel-info .panel-footer a {
-  font-size: 24px;
-  line-height: 28px;
-  vertical-align: top;
-  color: #fff;
-}
-/* line 1511, ../../Private/Sass/dna_profile.scss */
+/* line 1518, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary {
   border: none;
 }
-/* line 1513, ../../Private/Sass/dna_profile.scss */
+/* line 1520, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary .panel-heading {
   background-color: #247da6;
 }
-/* line 1515, ../../Private/Sass/dna_profile.scss */
+/* line 1522, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary .panel-heading a.btn {
   color: #247da6;
 }
-/* line 1519, ../../Private/Sass/dna_profile.scss */
+/* line 1526, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary .panel-footer {
   background-color: #247da6;
-  font-size: 20px;
-  font-style: italic;
-  color: #fff;
-  font-weight: 400;
-  line-height: 26px;
+  height: 47px;
 }
-/* line 1526, ../../Private/Sass/dna_profile.scss */
-.body-contents .tweet-panel.panel-primary .panel-footer a {
-  font-size: 24px;
-  line-height: 28px;
-  vertical-align: top;
-  color: #fff;
-}
-/* line 1534, ../../Private/Sass/dna_profile.scss */
+/* line 1531, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 {
   border: none;
 }
-/* line 1536, ../../Private/Sass/dna_profile.scss */
+/* line 1533, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 .panel-heading {
   background-color: #195673;
 }
-/* line 1538, ../../Private/Sass/dna_profile.scss */
+/* line 1535, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 .panel-heading a.btn {
   color: #195673;
 }
-/* line 1542, ../../Private/Sass/dna_profile.scss */
+/* line 1539, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 .panel-footer {
   background-color: #195673;
-  font-size: 20px;
-  font-style: italic;
-  color: #fff;
-  font-weight: 400;
-  line-height: 26px;
 }
-/* line 1549, ../../Private/Sass/dna_profile.scss */
-.body-contents .tweet-panel.panel-primary2 .panel-footer a {
-  font-size: 24px;
-  line-height: 28px;
-  vertical-align: top;
-  color: #fff;
-}
-/* line 1557, ../../Private/Sass/dna_profile.scss */
+/* line 1543, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning {
   border: none;
 }
-/* line 1559, ../../Private/Sass/dna_profile.scss */
+/* line 1545, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning .panel-heading {
   background-color: #ffb300;
 }
-/* line 1561, ../../Private/Sass/dna_profile.scss */
+/* line 1547, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning .panel-heading a.btn {
   color: #ffb300;
 }
-/* line 1565, ../../Private/Sass/dna_profile.scss */
+/* line 1551, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning .panel-footer {
   background-color: #ffb300;
-  font-size: 20px;
-  font-style: italic;
-  color: #fff;
-  font-weight: 400;
-  line-height: 26px;
 }
-/* line 1572, ../../Private/Sass/dna_profile.scss */
-.body-contents .tweet-panel.panel-warning .panel-footer a {
-  font-size: 24px;
-  line-height: 28px;
-  vertical-align: top;
-  color: #fff;
-}
-/* line 1580, ../../Private/Sass/dna_profile.scss */
+/* line 1555, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success {
   border: none;
 }
-/* line 1582, ../../Private/Sass/dna_profile.scss */
+/* line 1557, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success .panel-heading {
   background-color: #39bdb6;
 }
-/* line 1584, ../../Private/Sass/dna_profile.scss */
+/* line 1559, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success .panel-heading a.btn {
   color: #39bdb6;
 }
-/* line 1588, ../../Private/Sass/dna_profile.scss */
+/* line 1563, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success .panel-footer {
   background-color: #39bdb6;
-  font-size: 20px;
-  font-style: italic;
-  color: #fff;
-  font-weight: 400;
-  line-height: 26px;
 }
-/* line 1595, ../../Private/Sass/dna_profile.scss */
-.body-contents .tweet-panel.panel-success .panel-footer a {
-  font-size: 24px;
-  line-height: 28px;
-  vertical-align: top;
-  color: #fff;
-}
-/* line 1603, ../../Private/Sass/dna_profile.scss */
+/* line 1567, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger {
   border: none;
 }
-/* line 1605, ../../Private/Sass/dna_profile.scss */
+/* line 1569, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger .panel-heading {
   background-color: #9d4bbd;
 }
-/* line 1607, ../../Private/Sass/dna_profile.scss */
+/* line 1571, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger .panel-heading a.btn {
   color: #9d4bbd;
 }
-/* line 1611, ../../Private/Sass/dna_profile.scss */
+/* line 1575, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger .panel-footer {
   background-color: #9d4bbd;
-  font-size: 20px;
-  font-style: italic;
-  color: #fff;
-  font-weight: 400;
-  line-height: 26px;
-}
-/* line 1618, ../../Private/Sass/dna_profile.scss */
-.body-contents .tweet-panel.panel-danger .panel-footer a {
-  font-size: 24px;
-  line-height: 28px;
-  vertical-align: top;
-  color: #fff;
 }

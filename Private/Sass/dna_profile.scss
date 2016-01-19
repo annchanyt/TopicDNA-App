@@ -1485,6 +1485,23 @@ $break-6:87.5em; /* 1400px */
         }
       }
     }
+    &.panel-default.tweet-panel{
+      a, a:hover{
+        text-decoration: none;
+      }
+      .panel-footer{
+        font-size: 20px;
+        font-style: italic;
+        color: $white;
+        font-weight: 400;
+        line-height: 26px;
+      }
+      .fa-chevron-right{
+        font-size: 24px;
+        line-height: 28px;
+        color: $white;            
+      }
+    }
     &.panel-info{
         border: none;
        .panel-heading{
@@ -1495,17 +1512,7 @@ $break-6:87.5em; /* 1400px */
       }
       .panel-footer{
         background-color: #30a3d9;
-        font-size: 20px;
-        font-style: italic;
-        color: $white;
-        font-weight: 400;
-        line-height: 26px;
-          a{
-             font-size: 24px;
-             line-height: 28px;
-             vertical-align: top;
-             color: $white;            
-          }
+        height: 47px;
       }
     }
     &.panel-primary{
@@ -1518,17 +1525,7 @@ $break-6:87.5em; /* 1400px */
       }
       .panel-footer{
         background-color:#247da6;
-        font-size: 20px;
-        font-style: italic;
-        color: $white;
-        font-weight: 400;
-        line-height: 26px;
-          a{
-             font-size: 24px;
-             line-height: 28px;
-             vertical-align: top;
-             color: $white;            
-          }
+        height: 47px;
       }
     }
     &.panel-primary2{
@@ -1541,17 +1538,6 @@ $break-6:87.5em; /* 1400px */
       }
       .panel-footer{
         background-color:#195673;
-        font-size: 20px;
-        font-style: italic;
-        color: $white;
-        font-weight: 400;
-        line-height: 26px;
-          a{
-             font-size: 24px;
-             line-height: 28px;
-             vertical-align: top;
-             color: $white;            
-          }
       }
     }
     &.panel-warning{
@@ -1564,17 +1550,6 @@ $break-6:87.5em; /* 1400px */
       }
       .panel-footer{
         background-color: #ffb300;
-        font-size: 20px;
-        font-style: italic;
-        color: $white;
-        font-weight: 400;
-        line-height: 26px;
-          a{
-             font-size: 24px;
-             line-height: 28px;
-             vertical-align: top;
-             color: $white;            
-          }
       }
     }
     &.panel-success{
@@ -1587,17 +1562,6 @@ $break-6:87.5em; /* 1400px */
       }
       .panel-footer{
         background-color:#39bdb6;
-        font-size: 20px;
-        font-style: italic;
-        color: $white;
-        font-weight: 400;
-        line-height: 26px;
-          a{
-             font-size: 24px;
-             line-height: 28px;
-             vertical-align: top;
-             color: $white;            
-          }
       }
     }
     &.panel-danger{
@@ -1610,17 +1574,6 @@ $break-6:87.5em; /* 1400px */
       }
       .panel-footer{
         background-color:#9d4bbd;
-        font-size: 20px;
-        font-style: italic;
-        color: $white;
-        font-weight: 400;
-        line-height: 26px;
-          a{
-             font-size: 24px;
-             line-height: 28px;
-             vertical-align: top;
-             color: $white;            
-          }
       }
     }
   }
