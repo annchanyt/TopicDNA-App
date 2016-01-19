@@ -1451,22 +1451,38 @@ $break-6:87.5em; /* 1400px */
         .tweet-text{
           float: none;
           margin-left: 73px;
+          font-size: 14px;
           .username{
             font-size: 11px;
             color: #4a4a4a;
+            display: inline;
+            margin-left: 6px;
           }
-          strong{
-            display: block;
-            a{
-              padding-left: 10px;
-              color: #30a3d9;
-            }
+          .mentions-no{
+            padding-left: 10px;
+            color: #30a3d9;
+            font-weight: bold;
+            font-size: 12px;
           }
         }
         p{
-          margin: 0;
+          font-size: 12px;
+          margin: 6px 0;
           color: #979797;
-          line-height: 13px;
+          line-height: 14px;
+        }
+        .tweet-footer{
+          float:none;
+          margin-left: 73px;
+          margin-top: 3px;
+          a{
+            margin-right: 36px;
+            color: $pink;
+            font-size: 12px;
+            i{
+              margin-right: 6px;
+            }
+          }
         }
       }
     }
@@ -1504,6 +1520,9 @@ $break-6:87.5em; /* 1400px */
     }
     &.panel-info{
         border: none;
+        .panel-title{
+          width:100%;
+        }  
        .panel-heading{
         background-color: #30a3d9;
         a.btn{
@@ -1519,6 +1538,9 @@ $break-6:87.5em; /* 1400px */
         border: none;
        .panel-heading{
         background-color: #247da6;
+        .panel-title{
+          width:100%;
+        }  
         a.btn{
           color:#247da6;
         }
