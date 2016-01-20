@@ -127,6 +127,9 @@ body{
   color: $black2;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: $body;
+  &.white{
+    background-color: $white;
+  }
 }
 /* Custom Checkbox =============================*/
 /* ================================================*/
@@ -178,6 +181,10 @@ input[type=checkbox]:checked + label:before { letter-spacing: 3px; } /* allow sp
         color:$white;
         border-width: 2px;
       }
+    }
+    &.btn-xs{
+      font-size: 11px;
+      padding: 3px 15px;
     }
   }
 .btn-danger:hover{
@@ -1339,6 +1346,9 @@ $break-6:87.5em; /* 1400px */
     }
     .search-topic{
       padding-top: 72px;
+      &.less{
+        padding-top: 12px;
+      }
       h2{
         margin: 0;
         font-size: 36px;
@@ -1405,6 +1415,58 @@ $break-6:87.5em; /* 1400px */
     left: 0;
     width: 100%;
     color: $white;
+    .container {
+        position: relative;
+        .btn.btn-grey {
+            background-color: #666;
+            font-size: 12px;
+            font-weight: 600;
+            left: -50px;
+            padding: 4px 12px;
+            position: absolute;
+            top: -24px;
+            .fa-chevron-up{
+              display: none;
+            }
+            &:focus{
+              color:$white;
+            }
+            &[aria-expanded="true"]{
+              .fa-chevron-down{
+                display: none;
+              }
+              .fa-chevron-up{
+                display: inline;
+              }
+            }
+        }
+    }
+    .dropdown-menu{
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      float: none;
+      margin: 0 auto;
+      overflow: hidden;
+      position: static;
+      width: 64%;
+
+      .slider{
+        width: 230px!important;
+        display: block;
+        .slider-track{
+          border-radius: 0;
+          background-color: #ccc;
+          height: 6px;
+          .slider-selection{
+            background: #73c3f6;
+          }
+          .slider-handle{
+            margin-top: -7px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -1598,5 +1660,99 @@ $break-6:87.5em; /* 1400px */
         background-color:#9d4bbd;
       }
     }
+  }
+}
+
+.filter-cols{
+  border-top: solid 3px #d8d8d8;
+   margin-top: 14px;
+   & > .col-sm-3{
+      border-right: solid 2px #d8d8d8;
+      padding-left: 0;
+      .check-filter{
+        border-bottom: solid 1px #d8d8d8;
+        padding-bottom: 8px;
+      }
+      h4{
+        font-size: 20px;
+        cursor: pointer;
+        .fa{
+          font-size: 25px;
+          float: right;
+          &.fa-chevron-up{
+            display: none;
+          }
+        }
+        &[aria-expanded="true"]{
+          .fa-chevron-down{
+            display: none;
+          }
+          .fa-chevron-up{
+            display: inline;
+          }
+        }
+      }
+      .collapse, .collapsing{
+        label{
+          font-size: 16px;
+          color: #666;
+          font-weight: 400;
+        }
+      }
+   }
+}
+.tweet-panel-filter{
+  padding-top: 40px;
+  margin: 0 -25px 0 25px;
+  .avatar{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 2px 0;
+  }
+  a .fa {
+      border-radius: 50%;
+      font-size: 22px;
+      left: 60px;
+      line-height: 18px;
+      position: absolute;
+      top: 0;
+      &.fa-frown-o{
+        background-color: red;
+        color: $white;
+      }
+      &.fa-comments{
+        background-color: blue;
+        color: $white;
+        font-size: 15px;
+        padding: 2px;
+        line-height: 15px;
+      }
+  }
+  .tweet-text{
+    margin-left: 80px;
+    width: 100%;
+    color: #4a4a4a;
+    strong{
+      display: block;
+      line-height: 14px;
+      font-weight: 600;
+    }
+    .username{
+      font-size: 12px; 
+      line-height: 24px;    
+    }
+    .label-info{
+      margin-right: 5px;
+      border-radius: 5px;
+      background-color: #ffb300;
+      &:nth-child(2n) {
+          background-color: #39bdb6;
+      }
+      &:nth-child(3n) {
+          background-color: #9d4bbd;
+      }
+    }
+
   }
 }

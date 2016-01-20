@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" />
     <!-- Custom styles for this template -->
+    <link href="css/slider.css" rel="stylesheet">
     <link href="css/dna_profile.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -31,7 +32,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body class="white">
     
     <nav role="navigation" class="navbar navbar-default">
       <div class="container-fluid">
@@ -79,7 +80,7 @@
         <div class="container">
           <div class="row">
               <div class="col-md-12 text-center">
-                <div class="search-topic">
+                <div class="search-topic less">
                   <h2>Create groups of like-minded people</h2>
                   <h4>You can search by personas, topics, twitter handles or combined them all!</h4>
                   <div class="search-form">
@@ -96,8 +97,19 @@
       <div class="banner-filter">
         <div class="container">
           <div class="row">
-              <div class="col-md-12">
-                <a class="btn btn-grey" href="#">Hide Advance Filters <i class="fa fa-chevron-down"></i></a>
+                <a class="btn btn-grey dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hide Advance Filters <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+                  <div class="dropdown-menu">
+                      <div class="col-md-6">
+                        <h5>SIMILARITY SCALE</h5>
+                        <input type="text" class="slide" data-slider-max="100" value="70" id="s11" >
+                        <div class="slider"><span class="pull-left">0% similar</span><span class="pull-right">Identical</span></div>
+                      </div>
+                      <div class="col-md-6">
+                        <h5>NUMBER OF RESULTS</h5>
+                        <input type="text" class="slide" data-slider-max="20000" value="4032" id="s12" >
+                        <div class="slider"><span class="pull-left">0</span><span class="pull-right">20K</span></div>
+                      </div>
+                 </div>
               </div>
           </div>
         </div>
@@ -109,17 +121,385 @@
       <div class="row body-header text-center">
           <div class="col-xs-12 col-sm-12">
             <h2>We found <a href="#">4032</a> Potential Fans</h2>
+            <p>&nbsp;</p>
+            <div class="text-center"><p><a class="btn btn-danger btn-xs" href="#">SAVE GROUP</a> <a class="btn btn-danger btn-xs" href="#">EXPORT GROUP</a> <a class="btn btn-danger btn-xs" href="#">TWEET GROUP</a></p></div>
           </div>
         </div>
-      <div class="row">
-        <div class="col-sm-12 ">
-          <div class="body-contents">
+      <div class="row filter-cols">
+        <div class="col-sm-3">
+            <div class="check-filter">
+              <h4 class="dropdown-toggle" role="button" data-toggle="collapse" href="#collapseLocation" aria-expanded="true" aria-controls="collapseLocation">Location <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></h4>
+              <div class="collapse in" id="collapseLocation">
+                <input id="box1" type="checkbox" /> <label for="box1">All (4032)</label><br/>
+                <input id="box2" type="checkbox" /> <label for="box2">United Kingdom (200)</label><br/>
+                <input id="box3" type="checkbox" /> <label for="box3">United States (150)</label><br/>
+                <input id="box4" type="checkbox" /> <label for="box4">Spain (148)</label><br/>
+                <input id="box5" type="checkbox" /> <label for="box5">Brazil (50)</label><br/>
+                <input id="box6" type="checkbox" /> <label for="box6">Singapore (24)</label><br/>
+              </div>
+            </div>
+            <div class="check-filter">
+              <h4 class="dropdown-toggle" role="button" data-toggle="collapse" href="#collapsePersonas" aria-expanded="true" aria-controls="collapsePersonas">Personas <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></h4>
+              <div class="collapse in" id="collapsePersonas">
+                <input id="box1" type="checkbox" /> <label for="box1">All (4032)</label><br/>
+                <input id="box2" type="checkbox" /> <label for="box2">United Kingdom (200)</label><br/>
+                <input id="box3" type="checkbox" /> <label for="box3">United States (150)</label><br/>
+                <input id="box4" type="checkbox" /> <label for="box4">Spain (148)</label><br/>
+                <input id="box5" type="checkbox" /> <label for="box5">Brazil (50)</label><br/>
+                <input id="box6" type="checkbox" /> <label for="box6">Singapore (24)</label><br/>
+              </div>
+            </div>
+            <div class="check-filter">
+              <h4 class="dropdown-toggle" role="button" data-toggle="collapse" href="#collapseGender" aria-expanded="true" aria-controls="collapseGender">Gender <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></h4>
+              <div class="collapse in" id="collapseGender">
+                <input id="box1" type="checkbox" /> <label for="box1">All (4032)</label><br/>
+                <input id="box2" type="checkbox" /> <label for="box2">United Kingdom (200)</label><br/>
+                <input id="box3" type="checkbox" /> <label for="box3">United States (150)</label><br/>
+                <input id="box4" type="checkbox" /> <label for="box4">Spain (148)</label><br/>
+                <input id="box5" type="checkbox" /> <label for="box5">Brazil (50)</label><br/>
+                <input id="box6" type="checkbox" /> <label for="box6">Singapore (24)</label><br/>
+              </div>
+            </div>
+            <div class="check-filter">
+              <h4 class="dropdown-toggle" role="button" data-toggle="collapse" href="#collapseBehaviours" aria-expanded="true" aria-controls="collapseBehaviours">Behaviours <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></h4>
+              <div class="collapse in" id="collapseBehaviours">
+                <input id="box1" type="checkbox" /> <label for="box1">All (4032)</label><br/>
+                <input id="box2" type="checkbox" /> <label for="box2">United Kingdom (200)</label><br/>
+                <input id="box3" type="checkbox" /> <label for="box3">United States (150)</label><br/>
+                <input id="box4" type="checkbox" /> <label for="box4">Spain (148)</label><br/>
+                <input id="box5" type="checkbox" /> <label for="box5">Brazil (50)</label><br/>
+                <input id="box6" type="checkbox" /> <label for="box6">Singapore (24)</label><br/>
+              </div>
+            </div>
+            <div class="check-filter">
+              <h4 class="dropdown-toggle" role="button" data-toggle="collapse" href="#collapseMusicGenres" aria-expanded="true" aria-controls="collapseMusicGenres">Music Genres <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></h4>
+              <div class="collapse in" id="collapseMusicGenres">
+                <input id="box1" type="checkbox" /> <label for="box1">All (4032)</label><br/>
+                <input id="box2" type="checkbox" /> <label for="box2">United Kingdom (200)</label><br/>
+                <input id="box3" type="checkbox" /> <label for="box3">United States (150)</label><br/>
+                <input id="box4" type="checkbox" /> <label for="box4">Spain (148)</label><br/>
+                <input id="box5" type="checkbox" /> <label for="box5">Brazil (50)</label><br/>
+                <input id="box6" type="checkbox" /> <label for="box6">Singapore (24)</label><br/>
+              </div>
+            </div>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-          </div><!--/.body-contents-->
-        </div><!-- /.content-main -->
+        </div>
+
+        <div class="col-sm-9">
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                       <i class="fa fa-frown-o"></i>
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                       <i class="fa fa-comments"></i>
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row tweet-panel tweet-panel-filter">
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4">
+                  <div class="tweet-container">
+                    <a class="" href="#">
+                       <img class="avatar" src="images/Ev-Williams.jpg" alt="Tweet 1">
+                    </a> 
+                    <div class="tweet-text">                          
+                        <strong>Christopher Dean</strong>
+                        <span class="username">@tiffKensington</span>
+                        <p><span class="tag label label-info">70%</span><span class="tag label label-info">30%</span><span class="tag label label-info">65%</span></p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <p>&nbsp;</p>
+            <p class="text-center"><a href="#" class="btn btn-primary">VIEW MORE</a></p>
+        </div>
+
+        <!-- /.content-main -->
       </div><!-- /.row -->
     </div><!-- /.container -->
 
@@ -138,6 +518,7 @@
     <script src="javascripts/ie10-viewport-bug-workaround.js"></script>
     <script src="javascripts/jquery.matchHeight.js"></script>
     <script src="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>
+    <script src="javascripts/bootstrap-slider.js"></script>
     <script src="javascripts/custom.js"></script>
   </body>
 </html>
