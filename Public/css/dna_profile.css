@@ -353,7 +353,7 @@ input[type=checkbox]:checked + label:before {
 /* line 299, ../../Private/Sass/dna_profile.scss */
 .navbar {
   border: none;
-  height: 46px;
+  height: 45px;
   min-height: 45px;
   margin-bottom: 0;
 }
@@ -367,54 +367,67 @@ input[type=checkbox]:checked + label:before {
   height: 24px;
 }
 
-/* line 314, ../../Private/Sass/dna_profile.scss */
+/* line 313, ../../Private/Sass/dna_profile.scss */
 nav .container-fluid {
   background-color: #30a3d9;
 }
-/* line 317, ../../Private/Sass/dna_profile.scss */
+/* line 315, ../../Private/Sass/dna_profile.scss */
+nav .container-fluid .navbar-header {
+  margin-left: 18px;
+}
+/* line 319, ../../Private/Sass/dna_profile.scss */
+nav .navbar-right {
+  margin-right: 3px;
+}
+/* line 322, ../../Private/Sass/dna_profile.scss */
 nav .nav-icons.btn {
   padding: 10px 0;
 }
-/* line 320, ../../Private/Sass/dna_profile.scss */
+/* line 325, ../../Private/Sass/dna_profile.scss */
 nav .dropdown {
-  padding: 4px 0;
+  padding: 3px 0;
   height: 45px;
 }
-/* line 323, ../../Private/Sass/dna_profile.scss */
+/* line 328, ../../Private/Sass/dna_profile.scss */
 nav .dropdown img {
-  height: 30px;
-  width: 30px;
+  height: 33px;
+  width: 33px;
   border: 2px solid #fff;
   margin-right: 3px;
 }
-/* line 330, ../../Private/Sass/dna_profile.scss */
+/* line 335, ../../Private/Sass/dna_profile.scss */
+nav .navbar-form {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+/* line 339, ../../Private/Sass/dna_profile.scss */
 nav .form-inline {
   position: relative;
   float: right;
 }
-/* line 333, ../../Private/Sass/dna_profile.scss */
+/* line 342, ../../Private/Sass/dna_profile.scss */
 nav .form-inline .form-control {
   background-color: inherit;
   width: 250px;
   border: solid 2px #fff;
-  height: 30px;
+  height: 33px;
 }
-/* line 338, ../../Private/Sass/dna_profile.scss */
+/* line 347, ../../Private/Sass/dna_profile.scss */
 nav .form-inline .form-control input {
   color: #fff;
   opacity: 0.7;
 }
-/* line 342, ../../Private/Sass/dna_profile.scss */
+/* line 351, ../../Private/Sass/dna_profile.scss */
 nav .form-inline .form-control::-webkit-input-placeholder {
   color: #fff;
   opacity: 0.7;
 }
-/* line 346, ../../Private/Sass/dna_profile.scss */
+/* line 355, ../../Private/Sass/dna_profile.scss */
 nav .form-inline .form-control::-moz-placeholder {
   color: #fff;
   opacity: 0.7;
 }
-/* line 351, ../../Private/Sass/dna_profile.scss */
+/* line 360, ../../Private/Sass/dna_profile.scss */
 nav .form-inline span {
   background-color: inherit;
   border: none;
@@ -423,14 +436,14 @@ nav .form-inline span {
   top: 4px;
   left: 240px;
 }
-/* line 358, ../../Private/Sass/dna_profile.scss */
+/* line 367, ../../Private/Sass/dna_profile.scss */
 nav .form-inline span:hover {
   background-color: inherit;
   color: #fff;
 }
 
 /* Footer =============================*/
-/* line 366, ../../Private/Sass/dna_profile.scss */
+/* line 375, ../../Private/Sass/dna_profile.scss */
 footer {
   background-color: #333;
   height: 134px;
@@ -438,7 +451,7 @@ footer {
 
 /* Tweets =============================*/
 /* ================================================*/
-/* line 374, ../../Private/Sass/dna_profile.scss */
+/* line 383, ../../Private/Sass/dna_profile.scss */
 .avatar {
   height: 48px;
   width: 48px;
@@ -447,12 +460,12 @@ footer {
   margin: 0 10px 0 14px;
 }
 
-/* line 382, ../../Private/Sass/dna_profile.scss */
+/* line 391, ../../Private/Sass/dna_profile.scss */
 .tweets-list {
   margin-bottom: 40px;
 }
 
-/* line 386, ../../Private/Sass/dna_profile.scss */
+/* line 395, ../../Private/Sass/dna_profile.scss */
 .tweet-container {
   display: table;
   margin-bottom: 10px;
@@ -460,13 +473,13 @@ footer {
   margin-right: 0;
 }
 
-/* line 393, ../../Private/Sass/dna_profile.scss */
+/* line 402, ../../Private/Sass/dna_profile.scss */
 .conversation-tweet {
   display: table-cell !important;
   float: none !important;
 }
 
-/* line 398, ../../Private/Sass/dna_profile.scss */
+/* line 407, ../../Private/Sass/dna_profile.scss */
 .tweet {
   font-family: 'Helvetica Neue';
   position: relative;
@@ -474,52 +487,52 @@ footer {
   border-bottom: 1px solid #d8d8d8;
   min-width: 494px;
 }
-/* line 404, ../../Private/Sass/dna_profile.scss */
+/* line 413, ../../Private/Sass/dna_profile.scss */
 .tweet strong {
   font-size: 14px;
   color: #292F33;
 }
-/* line 408, ../../Private/Sass/dna_profile.scss */
+/* line 417, ../../Private/Sass/dna_profile.scss */
 .tweet .username {
   font-size: 13px;
   color: #8899a6;
 }
-/* line 412, ../../Private/Sass/dna_profile.scss */
+/* line 421, ../../Private/Sass/dna_profile.scss */
 .tweet .time {
   color: #8899a6;
 }
-/* line 414, ../../Private/Sass/dna_profile.scss */
+/* line 423, ../../Private/Sass/dna_profile.scss */
 .tweet .time:before {
   content: "\00b7";
   margin-right: 2px;
   font-size: 13px;
 }
-/* line 420, ../../Private/Sass/dna_profile.scss */
+/* line 429, ../../Private/Sass/dna_profile.scss */
 .tweet .tweet-text {
   margin-left: 72px;
   margin-right: 14px;
 }
-/* line 424, ../../Private/Sass/dna_profile.scss */
+/* line 433, ../../Private/Sass/dna_profile.scss */
 .tweet .quote-tweet {
   margin: 12px 14px 12px 72px;
   border: solid 1px #e1e8ed;
   border-radius: 4px;
 }
-/* line 428, ../../Private/Sass/dna_profile.scss */
+/* line 437, ../../Private/Sass/dna_profile.scss */
 .tweet .quote-tweet .quote-tweet-inner-container {
   padding: 12px;
 }
-/* line 432, ../../Private/Sass/dna_profile.scss */
+/* line 441, ../../Private/Sass/dna_profile.scss */
 .tweet .tweet-context {
   margin-bottom: 3px;
   margin-left: 33px;
 }
-/* line 435, ../../Private/Sass/dna_profile.scss */
+/* line 444, ../../Private/Sass/dna_profile.scss */
 .tweet .tweet-context .fa-retweet {
   margin-right: 6px;
   color: #77B255;
 }
-/* line 440, ../../Private/Sass/dna_profile.scss */
+/* line 449, ../../Private/Sass/dna_profile.scss */
 .tweet .media-container {
   margin: 12px 14px 12px 72px;
   max-height: 252px;
@@ -527,17 +540,17 @@ footer {
   border-radius: 5px;
   overflow: hidden;
 }
-/* line 446, ../../Private/Sass/dna_profile.scss */
+/* line 455, ../../Private/Sass/dna_profile.scss */
 .tweet .media-container .photo-container {
   width: 100%;
   height: 100%;
 }
-/* line 450, ../../Private/Sass/dna_profile.scss */
+/* line 459, ../../Private/Sass/dna_profile.scss */
 .tweet .media-container .img {
   width: 100%;
 }
 
-/* line 455, ../../Private/Sass/dna_profile.scss */
+/* line 464, ../../Private/Sass/dna_profile.scss */
 .tweet-actions-container {
   display: table-cell;
   float: none;
@@ -545,48 +558,48 @@ footer {
   vertical-align: middle;
   padding: 0;
 }
-/* line 461, ../../Private/Sass/dna_profile.scss */
+/* line 470, ../../Private/Sass/dna_profile.scss */
 .tweet-actions-container .panel-body {
   padding: 0;
 }
 
-/* line 465, ../../Private/Sass/dna_profile.scss */
+/* line 474, ../../Private/Sass/dna_profile.scss */
 .tweet-actions {
   margin-top: 18px;
   padding: 15px;
 }
-/* line 468, ../../Private/Sass/dna_profile.scss */
+/* line 477, ../../Private/Sass/dna_profile.scss */
 .tweet-actions .btn {
   font-size: 14px;
   color: #30a3d9;
   vertical-align: top;
   margin-right: 16px;
 }
-/* line 473, ../../Private/Sass/dna_profile.scss */
+/* line 482, ../../Private/Sass/dna_profile.scss */
 .tweet-actions .btn i {
   font-size: 36px;
   display: block;
 }
-/* line 477, ../../Private/Sass/dna_profile.scss */
+/* line 486, ../../Private/Sass/dna_profile.scss */
 .tweet-actions .btn:hover {
   color: #2186b5;
 }
 
-/* line 483, ../../Private/Sass/dna_profile.scss */
+/* line 492, ../../Private/Sass/dna_profile.scss */
 .tweet-box {
   width: 100%;
   background-color: #30a3d9;
   min-height: 120px;
   position: relative;
 }
-/* line 488, ../../Private/Sass/dna_profile.scss */
+/* line 497, ../../Private/Sass/dna_profile.scss */
 .tweet-box .avatar {
   margin: 0;
   position: absolute;
   top: 15px;
   left: 14px;
 }
-/* line 494, ../../Private/Sass/dna_profile.scss */
+/* line 503, ../../Private/Sass/dna_profile.scss */
 .tweet-box .tweet-box-text {
   resize: none;
   padding: 8px 10px;
@@ -596,53 +609,53 @@ footer {
   min-height: 60px;
 }
 
-/* line 504, ../../Private/Sass/dna_profile.scss */
+/* line 513, ../../Private/Sass/dna_profile.scss */
 .tweet-form {
   margin-left: 56px;
 }
-/* line 506, ../../Private/Sass/dna_profile.scss */
+/* line 515, ../../Private/Sass/dna_profile.scss */
 .tweet-form p {
   color: #fff;
 }
-/* line 509, ../../Private/Sass/dna_profile.scss */
+/* line 518, ../../Private/Sass/dna_profile.scss */
 .tweet-form div.rich-editor {
   display: block;
   overflow-y: auto;
   word-wrap: break-word;
 }
 
-/* line 515, ../../Private/Sass/dna_profile.scss */
+/* line 524, ../../Private/Sass/dna_profile.scss */
 .toolbar {
   padding: 12px 0 0;
 }
-/* line 517, ../../Private/Sass/dna_profile.scss */
+/* line 526, ../../Private/Sass/dna_profile.scss */
 .toolbar div {
   display: inline-block;
   font-size: 16px;
   color: #fff;
 }
-/* line 521, ../../Private/Sass/dna_profile.scss */
+/* line 530, ../../Private/Sass/dna_profile.scss */
 .toolbar div .photo-selector {
   margin-right: 6px;
 }
-/* line 524, ../../Private/Sass/dna_profile.scss */
+/* line 533, ../../Private/Sass/dna_profile.scss */
 .toolbar div i {
   margin-right: 8px;
 }
-/* line 528, ../../Private/Sass/dna_profile.scss */
+/* line 537, ../../Private/Sass/dna_profile.scss */
 .toolbar .tweet-box-extras {
   float: left;
 }
-/* line 531, ../../Private/Sass/dna_profile.scss */
+/* line 540, ../../Private/Sass/dna_profile.scss */
 .toolbar .tweet-button {
   float: right;
 }
-/* line 533, ../../Private/Sass/dna_profile.scss */
+/* line 542, ../../Private/Sass/dna_profile.scss */
 .toolbar .tweet-button .tweet-counter {
   margin-right: 6px;
 }
 
-/* line 539, ../../Private/Sass/dna_profile.scss */
+/* line 548, ../../Private/Sass/dna_profile.scss */
 .tweet-box-container {
   background-color: #30a3d9;
   padding: 6px 16px 15px 16px;
@@ -650,57 +663,57 @@ footer {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 546, ../../Private/Sass/dna_profile.scss */
+/* line 555, ../../Private/Sass/dna_profile.scss */
 .tweet-box-inline .tweet-form {
   margin: 12px 5px;
 }
-/* line 548, ../../Private/Sass/dna_profile.scss */
+/* line 557, ../../Private/Sass/dna_profile.scss */
 .tweet-box-inline .tweet-form .tweet-box-text {
   min-height: 80px;
 }
-/* line 551, ../../Private/Sass/dna_profile.scss */
+/* line 560, ../../Private/Sass/dna_profile.scss */
 .tweet-box-inline .tweet-form .toolbar .fa {
   margin: 1px 3px;
 }
 
 /* General Styles =============================*/
 /* ================================================*/
-/* line 559, ../../Private/Sass/dna_profile.scss */
+/* line 568, ../../Private/Sass/dna_profile.scss */
 .header-blue {
   background-color: #30a3d9;
   color: #fff;
   padding: 18px 0;
   border-top: solid 2px #79BEDF;
 }
-/* line 565, ../../Private/Sass/dna_profile.scss */
+/* line 574, ../../Private/Sass/dna_profile.scss */
 .header-blue .profile-pic-container img {
   width: 120px;
   height: 120px;
   margin-top: 11px;
 }
-/* line 571, ../../Private/Sass/dna_profile.scss */
+/* line 580, ../../Private/Sass/dna_profile.scss */
 .header-blue h1 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
 }
-/* line 575, ../../Private/Sass/dna_profile.scss */
+/* line 584, ../../Private/Sass/dna_profile.scss */
 .header-blue h1 small {
   color: #fff;
   font-size: 18px;
 }
-/* line 580, ../../Private/Sass/dna_profile.scss */
+/* line 589, ../../Private/Sass/dna_profile.scss */
 .header-blue p {
   font-size: 18px;
   font-weight: normal;
 }
-/* line 584, ../../Private/Sass/dna_profile.scss */
+/* line 593, ../../Private/Sass/dna_profile.scss */
 .header-blue ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 588, ../../Private/Sass/dna_profile.scss */
+/* line 597, ../../Private/Sass/dna_profile.scss */
 .header-blue ul li {
   color: #133a4c;
   font-size: 18px;
@@ -708,26 +721,26 @@ footer {
   float: left;
   margin-right: 18px;
 }
-/* line 594, ../../Private/Sass/dna_profile.scss */
+/* line 603, ../../Private/Sass/dna_profile.scss */
 .header-blue ul li span {
   font-weight: normal;
   display: block;
   font-size: 12px;
 }
-/* line 599, ../../Private/Sass/dna_profile.scss */
+/* line 608, ../../Private/Sass/dna_profile.scss */
 .header-blue ul li a {
   font-size: 14px;
   color: #133a4c;
 }
-/* line 605, ../../Private/Sass/dna_profile.scss */
+/* line 614, ../../Private/Sass/dna_profile.scss */
 .header-blue .profile-bio {
   margin-left: -36px;
 }
-/* line 609, ../../Private/Sass/dna_profile.scss */
+/* line 618, ../../Private/Sass/dna_profile.scss */
 .header-blue .persona-tag-container h4 {
   margin: 0 0 12px 0;
 }
-/* line 612, ../../Private/Sass/dna_profile.scss */
+/* line 621, ../../Private/Sass/dna_profile.scss */
 .header-blue .persona-tag-container .fa-bookmark-o, .header-blue .persona-tag-container .fa-bookmark {
   font-size: 50px;
   position: absolute;
@@ -735,16 +748,16 @@ footer {
   top: -14px;
   color: #fff;
 }
-/* line 619, ../../Private/Sass/dna_profile.scss */
+/* line 628, ../../Private/Sass/dna_profile.scss */
 .header-blue .persona-tag-container .fa-bookmark-o:hover:before {
   content: "\f02e";
 }
-/* line 622, ../../Private/Sass/dna_profile.scss */
+/* line 631, ../../Private/Sass/dna_profile.scss */
 .header-blue .persona-tag-container ul {
   display: inline-block;
   list-style-type: none;
 }
-/* line 625, ../../Private/Sass/dna_profile.scss */
+/* line 634, ../../Private/Sass/dna_profile.scss */
 .header-blue .persona-tag-container ul li {
   display: block;
   margin-bottom: 12px;
@@ -752,11 +765,11 @@ footer {
   width: 180px;
   text-align: center;
 }
-/* line 631, ../../Private/Sass/dna_profile.scss */
+/* line 640, ../../Private/Sass/dna_profile.scss */
 .header-blue .persona-tag-container ul li:last-of-type {
   margin-bottom: 0;
 }
-/* line 634, ../../Private/Sass/dna_profile.scss */
+/* line 643, ../../Private/Sass/dna_profile.scss */
 .header-blue .persona-tag-container ul li a.tag {
   background-color: #133a4c;
   color: #fff;
@@ -767,15 +780,15 @@ footer {
   display: block;
 }
 
-/* line 647, ../../Private/Sass/dna_profile.scss */
+/* line 656, ../../Private/Sass/dna_profile.scss */
 .header-pink {
   background-color: #e53272;
 }
-/* line 649, ../../Private/Sass/dna_profile.scss */
+/* line 658, ../../Private/Sass/dna_profile.scss */
 .header-pink .row .col-xs-6:first-child {
   border-right: solid 2px #bf2a5e;
 }
-/* line 653, ../../Private/Sass/dna_profile.scss */
+/* line 662, ../../Private/Sass/dna_profile.scss */
 .header-pink a {
   font-size: 18px;
   line-height: 48px;
@@ -783,53 +796,53 @@ footer {
   font-weight: 600;
   display: block;
 }
-/* line 659, ../../Private/Sass/dna_profile.scss */
+/* line 668, ../../Private/Sass/dna_profile.scss */
 .header-pink a:hover {
   text-decoration: none;
   color: #700e31;
 }
 
-/* line 665, ../../Private/Sass/dna_profile.scss */
+/* line 674, ../../Private/Sass/dna_profile.scss */
 .content-main {
   margin: 24px 0;
   background-color: #F4F7F9;
 }
-/* line 669, ../../Private/Sass/dna_profile.scss */
+/* line 678, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row {
   border: solid 1px #9babb4;
 }
-/* line 671, ../../Private/Sass/dna_profile.scss */
+/* line 680, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.body-header {
   border-top: solid 1px #9babb4;
   border-bottom: solid 1px #9babb4;
   padding: 25px 65px;
 }
-/* line 675, ../../Private/Sass/dna_profile.scss */
+/* line 684, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.body-header h2 {
   font-size: 36px;
   margin: 0;
   font-weight: 700;
   color: #133a4c;
 }
-/* line 682, ../../Private/Sass/dna_profile.scss */
+/* line 691, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document {
   padding: 15px 6%;
 }
-/* line 684, ../../Private/Sass/dna_profile.scss */
+/* line 693, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .topic-list-number {
   font-size: 20px;
   font-weight: 600;
   display: block;
   padding-top: 3px;
 }
-/* line 690, ../../Private/Sass/dna_profile.scss */
+/* line 699, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document h3 {
   margin-top: 0;
   color: #133a4c;
   font-size: 28px;
   display: inline-block;
 }
-/* line 696, ../../Private/Sass/dna_profile.scss */
+/* line 705, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document h4 {
   display: inline-block;
   font-size: 18px;
@@ -837,151 +850,151 @@ footer {
   margin: 0;
   margin-left: 24px;
 }
-/* line 703, ../../Private/Sass/dna_profile.scss */
+/* line 712, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .panel-dropdown {
   display: block;
   font-size: 14px;
   color: #e53272;
   font-weight: 700;
 }
-/* line 708, ../../Private/Sass/dna_profile.scss */
+/* line 717, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .panel-dropdown .fa {
   padding-left: 5px;
 }
-/* line 711, ../../Private/Sass/dna_profile.scss */
+/* line 720, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .panel-dropdown[aria-expanded="false"] .fa-chevron-up {
   display: none;
 }
-/* line 714, ../../Private/Sass/dna_profile.scss */
+/* line 723, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .panel-dropdown[aria-expanded="true"] .fa-chevron-down {
   display: none;
 }
-/* line 718, ../../Private/Sass/dna_profile.scss */
+/* line 727, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse {
   padding: 25px 15px;
 }
-/* line 720, ../../Private/Sass/dna_profile.scss */
+/* line 729, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .panel {
   margin-bottom: 0;
   border-radius: 0;
 }
-/* line 724, ../../Private/Sass/dna_profile.scss */
+/* line 733, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .tweets-panel {
   display: table;
   margin-bottom: 24px;
 }
-/* line 728, ../../Private/Sass/dna_profile.scss */
+/* line 737, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .tweets-panel-list {
   background-color: #fff;
   display: table-cell;
   float: none;
 }
-/* line 733, ../../Private/Sass/dna_profile.scss */
+/* line 742, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .interactors-panel {
   display: table-cell;
   float: none;
 }
-/* line 736, ../../Private/Sass/dna_profile.scss */
+/* line 745, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .interactors-panel h4 {
   font-size: 16px;
   color: #133a4c;
   font-weight: 600;
   margin: 25px 0;
 }
-/* line 742, ../../Private/Sass/dna_profile.scss */
+/* line 751, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .interactors-panel ul {
   margin: 0;
   padding: 0;
 }
-/* line 745, ../../Private/Sass/dna_profile.scss */
+/* line 754, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .interactors-panel ul li {
   list-style-type: none;
   display: inline-block;
   margin: 20px;
 }
-/* line 749, ../../Private/Sass/dna_profile.scss */
+/* line 758, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.document .document-collapse .interactors-panel ul li img {
   border: solid 2px #9babb4;
 }
-/* line 757, ../../Private/Sass/dna_profile.scss */
+/* line 766, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.info {
   background-color: #31A2D8;
   padding: 15px 65px;
   margin-top: -1px;
 }
-/* line 761, ../../Private/Sass/dna_profile.scss */
+/* line 770, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
-/* line 766, ../../Private/Sass/dna_profile.scss */
+/* line 775, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.info a {
   margin-right: 24px;
 }
-/* line 768, ../../Private/Sass/dna_profile.scss */
+/* line 777, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.info a:last-child {
   margin-right: 0;
 }
-/* line 771, ../../Private/Sass/dna_profile.scss */
+/* line 780, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.info a img {
   width: 48px;
   height: 48px;
   border: solid 2px #fff;
 }
-/* line 779, ../../Private/Sass/dna_profile.scss */
+/* line 788, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info {
   padding: 15px 65px;
 }
-/* line 781, ../../Private/Sass/dna_profile.scss */
+/* line 790, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info h2 {
   font-size: 36px;
   margin: 10px 0 30px;
   font-weight: 700;
   color: #133a4c;
 }
-/* line 787, ../../Private/Sass/dna_profile.scss */
+/* line 796, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info h3 {
   color: #4a4a4a;
   font-size: 28px;
 }
-/* line 791, ../../Private/Sass/dna_profile.scss */
+/* line 800, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info .people {
   padding: 40px 0;
 }
-/* line 793, ../../Private/Sass/dna_profile.scss */
+/* line 802, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info .people h4 {
   font-size: 16px;
   font-weight: 600;
 }
-/* line 797, ../../Private/Sass/dna_profile.scss */
+/* line 806, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info .people h3 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
 }
-/* line 801, ../../Private/Sass/dna_profile.scss */
+/* line 810, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info .people h3 span {
   font-size: 14px;
   display: block;
 }
-/* line 807, ../../Private/Sass/dna_profile.scss */
+/* line 816, ../../Private/Sass/dna_profile.scss */
 .content-main .body-contents > .row.more-info a.btn-primary {
   font-size: 18px;
   font-weight: 600;
 }
 
-/* line 815, ../../Private/Sass/dna_profile.scss */
+/* line 824, ../../Private/Sass/dna_profile.scss */
 .content-inner {
   margin: 37px 0;
   padding: 0;
 }
 
-/* line 820, ../../Private/Sass/dna_profile.scss */
+/* line 829, ../../Private/Sass/dna_profile.scss */
 .body-header p {
   margin: 0;
 }
-/* line 823, ../../Private/Sass/dna_profile.scss */
+/* line 832, ../../Private/Sass/dna_profile.scss */
 .body-header h2 {
   font-size: 36px;
   margin: 0;
@@ -989,28 +1002,28 @@ footer {
   font-weight: 600;
   color: #133a4c;
 }
-/* line 829, ../../Private/Sass/dna_profile.scss */
+/* line 838, ../../Private/Sass/dna_profile.scss */
 .body-header h2 span {
   color: #30a3d9;
 }
-/* line 833, ../../Private/Sass/dna_profile.scss */
+/* line 842, ../../Private/Sass/dna_profile.scss */
 .body-header h4 {
   font-weight: 600;
   color: #1a3966;
 }
-/* line 837, ../../Private/Sass/dna_profile.scss */
+/* line 846, ../../Private/Sass/dna_profile.scss */
 .body-header .text-center .btn-danger.btn-lg {
   margin-right: 24px;
 }
-/* line 839, ../../Private/Sass/dna_profile.scss */
+/* line 848, ../../Private/Sass/dna_profile.scss */
 .body-header .text-center .btn-danger.btn-lg:last-child {
   margin-right: 0;
 }
-/* line 842, ../../Private/Sass/dna_profile.scss */
+/* line 851, ../../Private/Sass/dna_profile.scss */
 .body-header .text-center .btn-danger.btn-lg i {
   margin-right: 8px;
 }
-/* line 846, ../../Private/Sass/dna_profile.scss */
+/* line 855, ../../Private/Sass/dna_profile.scss */
 .body-header .question {
   font-size: 20px;
   font-weight: 700;
@@ -1025,18 +1038,18 @@ footer {
   top: 8px;
 }
 
-/* line 861, ../../Private/Sass/dna_profile.scss */
+/* line 870, ../../Private/Sass/dna_profile.scss */
 .aside ul {
   list-style-type: none;
   padding: 0;
 }
-/* line 864, ../../Private/Sass/dna_profile.scss */
+/* line 873, ../../Private/Sass/dna_profile.scss */
 .aside ul li {
   color: #666;
   font-size: 16px;
   margin-bottom: 10px;
 }
-/* line 868, ../../Private/Sass/dna_profile.scss */
+/* line 877, ../../Private/Sass/dna_profile.scss */
 .aside ul li a {
   font-size: 16px;
   color: #31A2D8;
@@ -1044,54 +1057,54 @@ footer {
 }
 
 /* List */
-/* line 877, ../../Private/Sass/dna_profile.scss */
+/* line 886, ../../Private/Sass/dna_profile.scss */
 .heading-text {
   margin-bottom: 40px;
 }
 
-/* line 880, ../../Private/Sass/dna_profile.scss */
+/* line 889, ../../Private/Sass/dna_profile.scss */
 .user-list {
   margin: 40px 0;
 }
 
-/* line 885, ../../Private/Sass/dna_profile.scss */
+/* line 894, ../../Private/Sass/dna_profile.scss */
 .list-item .checkbox {
   margin: 0;
   padding: 0;
 }
-/* line 888, ../../Private/Sass/dna_profile.scss */
+/* line 897, ../../Private/Sass/dna_profile.scss */
 .list-item .checkbox label {
   color: transparent;
   padding-left: 10px;
   margin-top: 25px;
   margin-bottom: -20px;
 }
-/* line 893, ../../Private/Sass/dna_profile.scss */
+/* line 902, ../../Private/Sass/dna_profile.scss */
 .list-item .checkbox label:before {
   color: #666;
   font-size: 35px;
 }
-/* line 899, ../../Private/Sass/dna_profile.scss */
+/* line 908, ../../Private/Sass/dna_profile.scss */
 .list-item .header-blue {
   padding: 8px 0;
   border-radius: 4px;
 }
-/* line 902, ../../Private/Sass/dna_profile.scss */
+/* line 911, ../../Private/Sass/dna_profile.scss */
 .list-item .header-blue img {
   width: 80px;
   height: 80px;
 }
-/* line 906, ../../Private/Sass/dna_profile.scss */
+/* line 915, ../../Private/Sass/dna_profile.scss */
 .list-item .header-blue ul li {
   margin: 0 8px 8px 0;
 }
-/* line 908, ../../Private/Sass/dna_profile.scss */
+/* line 917, ../../Private/Sass/dna_profile.scss */
 .list-item .header-blue ul li a {
   background-color: #ffb300;
   padding: 2px 6px;
   font-size: 12px;
 }
-/* line 914, ../../Private/Sass/dna_profile.scss */
+/* line 923, ../../Private/Sass/dna_profile.scss */
 .list-item .header-blue .fa-bookmark-o, .list-item .header-blue .fa-bookmark {
   color: #fff;
   position: absolute;
@@ -1099,45 +1112,45 @@ footer {
   top: -12px;
   right: 60px;
 }
-/* line 921, ../../Private/Sass/dna_profile.scss */
+/* line 930, ../../Private/Sass/dna_profile.scss */
 .list-item .header-blue .fa-bookmark:hover:before {
   content: "\f00d";
   font-size: 24px;
   cursor: pointer;
 }
 
-/* line 928, ../../Private/Sass/dna_profile.scss */
+/* line 937, ../../Private/Sass/dna_profile.scss */
 .pager-btns {
   margin-top: 35px;
   overflow: hidden;
 }
-/* line 932, ../../Private/Sass/dna_profile.scss */
+/* line 941, ../../Private/Sass/dna_profile.scss */
 .pager-btns li:first-child {
   margin-right: 210px;
 }
-/* line 936, ../../Private/Sass/dna_profile.scss */
+/* line 945, ../../Private/Sass/dna_profile.scss */
 .pager-btns .pager li > a, .pager-btns .pager li > span {
   background-color: inherit;
   border-color: #31A2D8;
   color: #31A2D8;
 }
-/* line 940, ../../Private/Sass/dna_profile.scss */
+/* line 949, ../../Private/Sass/dna_profile.scss */
 .pager-btns .pager li > a:hover, .pager-btns .pager li > a:focus, .pager-btns .pager li > span:hover, .pager-btns .pager li > span:focus {
   background-color: #31A2D8;
   color: #fff;
 }
 
-/* line 946, ../../Private/Sass/dna_profile.scss */
+/* line 955, ../../Private/Sass/dna_profile.scss */
 .pagination-btns {
   margin-bottom: 35px;
 }
-/* line 948, ../../Private/Sass/dna_profile.scss */
+/* line 957, ../../Private/Sass/dna_profile.scss */
 .pagination-btns .pagination > li > a, .pagination-btns .pagination > li > span {
   background-color: inherit;
   color: #31A2D8;
   border-color: #31A2D8;
 }
-/* line 952, ../../Private/Sass/dna_profile.scss */
+/* line 961, ../../Private/Sass/dna_profile.scss */
 .pagination-btns .pagination > li > a:hover, .pagination-btns .pagination > li > a:focus, .pagination-btns .pagination > li > span:hover, .pagination-btns .pagination > li > span:focus {
   background-color: #31A2D8;
   color: #fff;
@@ -1176,13 +1189,13 @@ footer {
     stroke: #ffb300;
   }
 }
-/* line 994, ../../Private/Sass/dna_profile.scss */
+/* line 1003, ../../Private/Sass/dna_profile.scss */
 .map {
   margin: 0;
   min-height: 450px;
   text-align: center;
 }
-/* line 1000, ../../Private/Sass/dna_profile.scss */
+/* line 1009, ../../Private/Sass/dna_profile.scss */
 .map .showbox {
   position: absolute;
   top: 0;
@@ -1192,19 +1205,19 @@ footer {
   padding: 15%;
   z-index: 10;
 }
-/* line 1006, ../../Private/Sass/dna_profile.scss */
+/* line 1015, ../../Private/Sass/dna_profile.scss */
 .map .loader {
   position: relative;
   margin: 0px auto;
   width: 100px;
 }
-/* line 1010, ../../Private/Sass/dna_profile.scss */
+/* line 1019, ../../Private/Sass/dna_profile.scss */
 .map .loader:before {
   content: '';
   display: block;
   padding-top: 100%;
 }
-/* line 1016, ../../Private/Sass/dna_profile.scss */
+/* line 1025, ../../Private/Sass/dna_profile.scss */
 .map .circular {
   animation: rotate 1s linear infinite;
   height: 100%;
@@ -1217,7 +1230,7 @@ footer {
   right: 0;
   margin: auto;
 }
-/* line 1025, ../../Private/Sass/dna_profile.scss */
+/* line 1034, ../../Private/Sass/dna_profile.scss */
 .map .path {
   stroke-dasharray: 1,000;
   stroke-dashoffset: 0;
@@ -1241,36 +1254,36 @@ footer {
 // ========================================================================== */
 /* Media Query Watcher
 // ========================================================================== */
-/* line 1096, ../../Private/Sass/dna_profile.scss */
+/* line 1105, ../../Private/Sass/dna_profile.scss */
 #getActiveMQ-watcher {
   font-family: "break-0";
 }
 @media (min-width: 20em) {
-  /* line 1096, ../../Private/Sass/dna_profile.scss */
+  /* line 1105, ../../Private/Sass/dna_profile.scss */
   #getActiveMQ-watcher {
     font-family: "break-1";
   }
 }
 @media (min-width: 30em) {
-  /* line 1096, ../../Private/Sass/dna_profile.scss */
+  /* line 1105, ../../Private/Sass/dna_profile.scss */
   #getActiveMQ-watcher {
     font-family: "break-2";
   }
 }
 @media (min-width: 37.5em) {
-  /* line 1096, ../../Private/Sass/dna_profile.scss */
+  /* line 1105, ../../Private/Sass/dna_profile.scss */
   #getActiveMQ-watcher {
     font-family: "break-3";
   }
 }
 @media (min-width: 48em) {
-  /* line 1096, ../../Private/Sass/dna_profile.scss */
+  /* line 1105, ../../Private/Sass/dna_profile.scss */
   #getActiveMQ-watcher {
     font-family: "break-4";
   }
 }
 @media (min-width: 60em) {
-  /* line 1096, ../../Private/Sass/dna_profile.scss */
+  /* line 1105, ../../Private/Sass/dna_profile.scss */
   #getActiveMQ-watcher {
     font-family: "break-5";
   }
@@ -1314,7 +1327,7 @@ footer {
     opacity: 0;
   }
 }
-/* line 1157, ../../Private/Sass/dna_profile.scss */
+/* line 1166, ../../Private/Sass/dna_profile.scss */
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1366,7 +1379,7 @@ footer {
     transform: translateY(0);
   }
 }
-/* line 1216, ../../Private/Sass/dna_profile.scss */
+/* line 1225, ../../Private/Sass/dna_profile.scss */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
@@ -1374,49 +1387,49 @@ footer {
 
 /* =Places Map
 // ========================================================================== */
-/* line 1223, ../../Private/Sass/dna_profile.scss */
+/* line 1232, ../../Private/Sass/dna_profile.scss */
 #places-map {
   position: relative;
 }
-/* line 1229, ../../Private/Sass/dna_profile.scss */
+/* line 1238, ../../Private/Sass/dna_profile.scss */
 #places-map h1 {
   font-size: 1.3125em;
   margin-top: 0.95238em;
   text-align: center;
 }
 @media (min-width: 37.5em) {
-  /* line 1229, ../../Private/Sass/dna_profile.scss */
+  /* line 1238, ../../Private/Sass/dna_profile.scss */
   #places-map h1 {
     font-size: 2.1875em;
     margin-top: 0.94286em;
   }
 }
-/* line 1238, ../../Private/Sass/dna_profile.scss */
+/* line 1247, ../../Private/Sass/dna_profile.scss */
 #places-map img {
   height: auto;
   position: relative;
   width: 100%;
   z-index: 1;
 }
-/* line 1244, ../../Private/Sass/dna_profile.scss */
+/* line 1253, ../../Private/Sass/dna_profile.scss */
 .secondary-page #places-map .content {
   margin: 0;
   position: relative;
 }
 @media (min-width: 60em) {
-  /* line 1244, ../../Private/Sass/dna_profile.scss */
+  /* line 1253, ../../Private/Sass/dna_profile.scss */
   .secondary-page #places-map .content {
     margin: 0 auto;
   }
 }
-/* line 1251, ../../Private/Sass/dna_profile.scss */
+/* line 1260, ../../Private/Sass/dna_profile.scss */
 #places-map .map {
   position: relative;
   max-width: 56.4375em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1256, ../../Private/Sass/dna_profile.scss */
+/* line 1265, ../../Private/Sass/dna_profile.scss */
 #places-map .map-pins {
   position: absolute;
   height: 100%;
@@ -1424,7 +1437,7 @@ footer {
   left: 0;
   width: 100%;
 }
-/* line 1263, ../../Private/Sass/dna_profile.scss */
+/* line 1272, ../../Private/Sass/dna_profile.scss */
 #places-map .map-location-marker {
   background: url('../images/pin.png?1453370520') no-repeat;
   cursor: pointer;
@@ -1436,91 +1449,91 @@ footer {
   z-index: 3;
 }
 @media (min-width: 48em) {
-  /* line 1273, ../../Private/Sass/dna_profile.scss */
+  /* line 1282, ../../Private/Sass/dna_profile.scss */
   .js #places-map .map-location-marker {
     visibility: hidden;
   }
-  /* line 1276, ../../Private/Sass/dna_profile.scss */
+  /* line 1285, ../../Private/Sass/dna_profile.scss */
   .js #places-map .map-location-marker.bounceInDown {
     visibility: visible;
   }
 }
-/* line 1281, ../../Private/Sass/dna_profile.scss */
+/* line 1290, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-san-francisco {
   left: 8%;
   top: 30%;
 }
 @media (max-width: 37.4375em) {
-  /* line 1281, ../../Private/Sass/dna_profile.scss */
+  /* line 1290, ../../Private/Sass/dna_profile.scss */
   #places-map .marker-san-francisco {
     left: 6%;
     top: 32%;
   }
 }
-/* line 1289, ../../Private/Sass/dna_profile.scss */
+/* line 1298, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-denver {
   left: 13%;
   top: 29%;
   -webkit-animation-delay: .1s;
   animation-delay: .1s;
 }
-/* line 1295, ../../Private/Sass/dna_profile.scss */
+/* line 1304, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-argentina {
   left: 29.5%;
   bottom: 21.5%;
   -webkit-animation-delay: .3s;
   animation-delay: .3s;
 }
-/* line 1301, ../../Private/Sass/dna_profile.scss */
+/* line 1310, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-dubai {
   left: 64%;
   top: 42%;
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
 }
-/* line 1307, ../../Private/Sass/dna_profile.scss */
+/* line 1316, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-costa-rica {
   left: 17.5%;
   top: 50%;
   -webkit-animation-delay: .2s;
   animation-delay: .2s;
 }
-/* line 1313, ../../Private/Sass/dna_profile.scss */
+/* line 1322, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-peterborough {
   left: 45.5%;
   top: 20%;
   -webkit-animation-delay: .4s;
   animation-delay: .4s;
 }
-/* line 1319, ../../Private/Sass/dna_profile.scss */
+/* line 1328, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-vilnius {
   left: 52%;
   top: 18%;
   -webkit-animation-delay: .5s;
   animation-delay: .5s;
 }
-/* line 1325, ../../Private/Sass/dna_profile.scss */
+/* line 1334, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-singapore {
   left: 79%;
   bottom: 42%;
   -webkit-animation-delay: .7s;
   animation-delay: .7s;
 }
-/* line 1331, ../../Private/Sass/dna_profile.scss */
+/* line 1340, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-manila {
   left: 84.5%;
   top: 48%;
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
 }
-/* line 1337, ../../Private/Sass/dna_profile.scss */
+/* line 1346, ../../Private/Sass/dna_profile.scss */
 #places-map .marker-sydney {
   bottom: 28%;
   right: 2%;
   -webkit-animation-delay: .9s;
   animation-delay: .9s;
 }
-/* line 1343, ../../Private/Sass/dna_profile.scss */
+/* line 1352, ../../Private/Sass/dna_profile.scss */
 #places-map .map-location-marker:after {
   -webkit-animation: pulsate 2s ease-in-out infinite;
   -moz-animation: pulsate 2s ease-in-out infinite;
@@ -1543,40 +1556,55 @@ footer {
   z-index: 2;
 }
 
-/* line 1365, ../../Private/Sass/dna_profile.scss */
+/* line 1374, ../../Private/Sass/dna_profile.scss */
 #page-places {
   position: relative;
 }
 
 /**************** Home Page *************************/
-/* line 1372, ../../Private/Sass/dna_profile.scss */
+/* line 1381, ../../Private/Sass/dna_profile.scss */
 .banner-bg {
   position: relative;
   margin-bottom: 36px;
-  height: 402px;
+  height: 350px;
   overflow: hidden;
   padding: 0;
   border: none;
 }
-/* line 1379, ../../Private/Sass/dna_profile.scss */
+/* line 1388, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner {
   margin: 0 auto;
   width: 100%;
 }
-/* line 1383, ../../Private/Sass/dna_profile.scss */
+/* line 1392, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content {
-  padding: 54px 0;
+  padding: 88px 0;
   color: #fff;
   position: absolute;
   width: 100%;
   left: 0;
   top: 0;
 }
-/* line 1390, ../../Private/Sass/dna_profile.scss */
+/* line 1399, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content .btn-default {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #245799;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  padding: 3px 14px 2px;
+  margin-left: 12px;
+}
+/* line 1408, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content .btn-default .fa-twitter {
+  margin-right: 4px;
+}
+/* line 1412, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content h4 {
   margin-bottom: 16px;
 }
-/* line 1394, ../../Private/Sass/dna_profile.scss */
+/* line 1416, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content ul li .tag {
   padding: .35em .7em .4em;
   margin-right: 5px;
@@ -1584,54 +1612,54 @@ footer {
   background-color: #ffb300;
   color: #fff;
 }
-/* line 1401, ../../Private/Sass/dna_profile.scss */
+/* line 1423, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content ul li:nth-child(2n) .tag {
   background-color: #9d4bbd;
 }
-/* line 1404, ../../Private/Sass/dna_profile.scss */
+/* line 1426, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content ul li:nth-child(3n) .tag {
   background-color: #39bdb6;
 }
-/* line 1408, ../../Private/Sass/dna_profile.scss */
+/* line 1430, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content h3 {
   margin: 0;
+  font-size: 21px;
 }
-/* line 1410, ../../Private/Sass/dna_profile.scss */
+/* line 1433, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content h3 .btn-default {
   border-color: #fff;
   color: #245799;
-  border-radius: 5px;
   font-weight: 600;
   padding: 3px 12px;
 }
-/* line 1418, ../../Private/Sass/dna_profile.scss */
+/* line 1440, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .infoes {
   font-size: 18px;
 }
-/* line 1420, ../../Private/Sass/dna_profile.scss */
+/* line 1442, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .infoes span {
   margin-left: 20px;
 }
-/* line 1424, ../../Private/Sass/dna_profile.scss */
+/* line 1446, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic {
-  padding-top: 64px;
+  padding-top: 24px;
 }
-/* line 1426, ../../Private/Sass/dna_profile.scss */
+/* line 1448, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic.less {
   padding-top: 12px;
 }
-/* line 1429, ../../Private/Sass/dna_profile.scss */
+/* line 1451, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic h2 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 36px;
   font-weight: 600;
 }
-/* line 1435, ../../Private/Sass/dna_profile.scss */
+/* line 1457, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form {
   margin-top: 36px;
 }
-/* line 1439, ../../Private/Sass/dna_profile.scss */
+/* line 1461, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .form-control, .banner-bg .banner-content .search-topic .search-form .form-inline .bootstrap-tagsinput {
   width: 440px;
   padding: 8px 10px;
@@ -1640,11 +1668,11 @@ footer {
   margin: 0 20px 0 0;
   text-align: left;
 }
-/* line 1447, ../../Private/Sass/dna_profile.scss */
+/* line 1469, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .bootstrap-tagsinput input {
   height: 29px;
 }
-/* line 1450, ../../Private/Sass/dna_profile.scss */
+/* line 1472, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info {
   background-color: #ffb300;
   border-radius: 5px;
@@ -1656,7 +1684,7 @@ footer {
   position: relative;
   margin-right: 10px;
 }
-/* line 1460, ../../Private/Sass/dna_profile.scss */
+/* line 1482, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info span[data-role="remove"] {
   background-color: #133a4c;
   border-radius: 50%;
@@ -1668,15 +1696,15 @@ footer {
   right: -8px;
   top: -5px;
 }
-/* line 1471, ../../Private/Sass/dna_profile.scss */
+/* line 1493, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info:nth-child(2n) {
   background-color: #39bdb6;
 }
-/* line 1474, ../../Private/Sass/dna_profile.scss */
+/* line 1496, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info:nth-child(3n) {
   background-color: #9d4bbd;
 }
-/* line 1478, ../../Private/Sass/dna_profile.scss */
+/* line 1500, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .btn {
   border-radius: 6px;
   height: 48px;
@@ -1684,7 +1712,7 @@ footer {
   vertical-align: middle;
   font-weight: 600;
 }
-/* line 1488, ../../Private/Sass/dna_profile.scss */
+/* line 1510, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .avatar {
   width: 96px;
   height: 96px;
@@ -1693,63 +1721,48 @@ footer {
   margin: 0;
   float: none;
 }
-/* line 1496, ../../Private/Sass/dna_profile.scss */
+/* line 1518, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin-bottom: 24px;
 }
-/* line 1500, ../../Private/Sass/dna_profile.scss */
+/* line 1522, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content h1 span {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
-/* line 1505, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content h1 .btn {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #245799;
-  font-size: 14px;
-  border-radius: 20px;
-  border: none;
-  font-weight: 600;
-  padding: 3px 14px 2px;
-  margin-left: 12px;
-}
-/* line 1514, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content h1 .btn .fa-twitter {
-  margin-right: 4px;
-}
-/* line 1519, ../../Private/Sass/dna_profile.scss */
+/* line 1528, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content hr {
   margin-top: 6px;
 }
-/* line 1523, ../../Private/Sass/dna_profile.scss */
+/* line 1532, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .profile-meta h4 {
   margin-bottom: 23px;
 }
-/* line 1525, ../../Private/Sass/dna_profile.scss */
+/* line 1534, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .profile-meta h4 .fa {
   margin-right: 10px;
 }
-/* line 1529, ../../Private/Sass/dna_profile.scss */
+/* line 1538, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .profile-meta ul.twitter-infoes li {
   color: #fff;
   border-right: solid 1px #fff;
   padding-right: 10px;
   margin-right: 10px;
 }
-/* line 1534, ../../Private/Sass/dna_profile.scss */
+/* line 1543, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .profile-meta ul.twitter-infoes li span {
   line-height: 13px;
 }
-/* line 1537, ../../Private/Sass/dna_profile.scss */
+/* line 1546, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .profile-meta ul.twitter-infoes li:last-child {
   padding: 0;
   margin: 0;
   border: none;
 }
-/* line 1545, ../../Private/Sass/dna_profile.scss */
+/* line 1554, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter {
   background-color: #666;
   position: absolute;
@@ -1758,11 +1771,11 @@ footer {
   width: 100%;
   color: #fff;
 }
-/* line 1552, ../../Private/Sass/dna_profile.scss */
+/* line 1561, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .container {
   position: relative;
 }
-/* line 1554, ../../Private/Sass/dna_profile.scss */
+/* line 1563, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .container .btn.btn-grey {
   background-color: #666;
   font-size: 12px;
@@ -1772,23 +1785,23 @@ footer {
   position: absolute;
   top: -24px;
 }
-/* line 1562, ../../Private/Sass/dna_profile.scss */
+/* line 1571, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .container .btn.btn-grey .fa-chevron-up {
   display: none;
 }
-/* line 1565, ../../Private/Sass/dna_profile.scss */
+/* line 1574, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .container .btn.btn-grey:focus {
   color: #fff;
 }
-/* line 1569, ../../Private/Sass/dna_profile.scss */
+/* line 1578, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .container .btn.btn-grey[aria-expanded="true"] .fa-chevron-down {
   display: none;
 }
-/* line 1572, ../../Private/Sass/dna_profile.scss */
+/* line 1581, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .container .btn.btn-grey[aria-expanded="true"] .fa-chevron-up {
   display: inline;
 }
-/* line 1578, ../../Private/Sass/dna_profile.scss */
+/* line 1587, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .dropdown-menu {
   background-color: transparent;
   border: none;
@@ -1799,26 +1812,26 @@ footer {
   position: static;
   width: 64%;
 }
-/* line 1587, ../../Private/Sass/dna_profile.scss */
+/* line 1596, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .dropdown-menu .slider {
   width: 230px !important;
   display: block;
 }
-/* line 1590, ../../Private/Sass/dna_profile.scss */
+/* line 1599, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .dropdown-menu .slider .slider-track {
   border-radius: 0;
   background-color: #ccc;
   height: 6px;
 }
-/* line 1594, ../../Private/Sass/dna_profile.scss */
+/* line 1603, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .dropdown-menu .slider .slider-track .slider-selection {
   background: #73c3f6;
 }
-/* line 1597, ../../Private/Sass/dna_profile.scss */
+/* line 1606, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-filter .dropdown-menu .slider .slider-track .slider-handle {
   margin-top: -7px;
 }
-/* line 1604, ../../Private/Sass/dna_profile.scss */
+/* line 1613, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-navigation {
   background-color: #1a3966;
   position: absolute;
@@ -1828,17 +1841,17 @@ footer {
   color: #fff;
   height: 60px;
 }
-/* line 1613, ../../Private/Sass/dna_profile.scss */
+/* line 1622, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-navigation ul li {
   display: inline;
   margin-right: 48px;
   margin-top: 4px;
 }
-/* line 1617, ../../Private/Sass/dna_profile.scss */
+/* line 1626, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-navigation ul li:first-of-type {
   margin-left: 48px;
 }
-/* line 1620, ../../Private/Sass/dna_profile.scss */
+/* line 1629, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-navigation ul li a {
   color: #fff;
   font-size: 20px;
@@ -1848,23 +1861,23 @@ footer {
   font-weight: 200;
   border-radius: 0;
 }
-/* line 1628, ../../Private/Sass/dna_profile.scss */
+/* line 1637, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-navigation ul li a:hover, .banner-bg .banner-navigation ul li a:focus, .banner-bg .banner-navigation ul li a.active {
   background-color: inherit;
   border-bottom: solid 8px #52bdff;
 }
 
-/* line 1639, ../../Private/Sass/dna_profile.scss */
+/* line 1648, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel {
   margin-bottom: 38px;
   box-shadow: 0 4px 4px #aaa;
 }
-/* line 1642, ../../Private/Sass/dna_profile.scss */
+/* line 1651, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-heading {
   height: 76px;
   padding: 10px 15px;
 }
-/* line 1645, ../../Private/Sass/dna_profile.scss */
+/* line 1654, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-heading .panel-title {
   font-size: 24px;
   color: #fff !important;
@@ -1873,13 +1886,13 @@ footer {
   font-weight: 500;
   vertical-align: middle;
 }
-/* line 1653, ../../Private/Sass/dna_profile.scss */
+/* line 1662, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-heading a.btn {
   float: right;
   margin: 13px 0;
   border-color: #fff;
 }
-/* line 1658, ../../Private/Sass/dna_profile.scss */
+/* line 1667, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-heading:before {
   content: "";
   display: inline-block;
@@ -1887,89 +1900,89 @@ footer {
   margin-right: -0.25em;
   vertical-align: middle;
 }
-/* line 1666, ../../Private/Sass/dna_profile.scss */
+/* line 1675, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body {
   padding: 10px 0 0;
 }
-/* line 1669, ../../Private/Sass/dna_profile.scss */
+/* line 1678, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container {
   margin-bottom: 0;
   border-bottom: solid 1px #d8d8d8;
   padding: 0 10px 10px;
 }
-/* line 1673, ../../Private/Sass/dna_profile.scss */
+/* line 1682, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container .avatar {
   border-radius: 50%;
   float: left;
   margin: 5px 0 0 10px;
 }
-/* line 1678, ../../Private/Sass/dna_profile.scss */
+/* line 1687, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container .tweet-text {
   float: none;
   margin-left: 73px;
   font-size: 14px;
 }
-/* line 1682, ../../Private/Sass/dna_profile.scss */
+/* line 1691, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container .tweet-text .username {
   font-size: 11px;
   color: #4a4a4a;
   display: inline;
   margin-left: 6px;
 }
-/* line 1688, ../../Private/Sass/dna_profile.scss */
+/* line 1697, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container .tweet-text .mentions-no {
   padding-left: 10px;
   color: #30a3d9;
   font-weight: bold;
   font-size: 12px;
 }
-/* line 1695, ../../Private/Sass/dna_profile.scss */
+/* line 1704, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container p {
   font-size: 12px;
   margin: 6px 0;
   color: #979797;
   line-height: 14px;
 }
-/* line 1701, ../../Private/Sass/dna_profile.scss */
+/* line 1710, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container .tweet-footer {
   float: none;
   margin-left: 73px;
   margin-top: 3px;
 }
-/* line 1705, ../../Private/Sass/dna_profile.scss */
+/* line 1714, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container .tweet-footer a {
   margin-right: 36px;
   color: #e53272;
   font-size: 12px;
 }
-/* line 1709, ../../Private/Sass/dna_profile.scss */
+/* line 1718, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-body .tweet-container .tweet-footer a i {
   margin-right: 6px;
 }
-/* line 1716, ../../Private/Sass/dna_profile.scss */
+/* line 1725, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .tweet-text {
   font-size: 12px;
 }
-/* line 1719, ../../Private/Sass/dna_profile.scss */
+/* line 1728, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .tweet-profile {
   padding-bottom: 10px;
 }
-/* line 1721, ../../Private/Sass/dna_profile.scss */
+/* line 1730, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .tweet-profile p {
   margin-bottom: 0;
   font-weight: 600;
 }
-/* line 1724, ../../Private/Sass/dna_profile.scss */
+/* line 1733, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .tweet-profile p span {
   font-weight: normal;
   font-size: 11px;
   color: #979797;
 }
-/* line 1732, ../../Private/Sass/dna_profile.scss */
+/* line 1741, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-default.tweet-panel a, .body-contents .tweet-panel.panel-default.tweet-panel a:hover {
   text-decoration: none;
 }
-/* line 1735, ../../Private/Sass/dna_profile.scss */
+/* line 1744, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-default.tweet-panel .panel-footer {
   font-size: 20px;
   font-style: italic;
@@ -1977,293 +1990,293 @@ footer {
   font-weight: 400;
   line-height: 26px;
 }
-/* line 1742, ../../Private/Sass/dna_profile.scss */
+/* line 1751, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-default.tweet-panel .fa-chevron-right {
   font-size: 24px;
   line-height: 28px;
   color: #fff;
 }
-/* line 1748, ../../Private/Sass/dna_profile.scss */
+/* line 1757, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info {
   border: none;
 }
-/* line 1750, ../../Private/Sass/dna_profile.scss */
+/* line 1759, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info .panel-title {
   width: 100%;
 }
-/* line 1753, ../../Private/Sass/dna_profile.scss */
+/* line 1762, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info .panel-heading {
   background-color: #30a3d9;
 }
-/* line 1755, ../../Private/Sass/dna_profile.scss */
+/* line 1764, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info .panel-heading a.btn {
   color: #30a3d9;
 }
-/* line 1759, ../../Private/Sass/dna_profile.scss */
+/* line 1768, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-info .panel-footer {
   background-color: #30a3d9;
   height: 47px;
 }
-/* line 1764, ../../Private/Sass/dna_profile.scss */
+/* line 1773, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary {
   border: none;
 }
-/* line 1766, ../../Private/Sass/dna_profile.scss */
+/* line 1775, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary .panel-heading {
   background-color: #247da6;
 }
-/* line 1768, ../../Private/Sass/dna_profile.scss */
+/* line 1777, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary .panel-heading .panel-title {
   width: 100%;
 }
-/* line 1771, ../../Private/Sass/dna_profile.scss */
+/* line 1780, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary .panel-heading a.btn {
   color: #247da6;
 }
-/* line 1775, ../../Private/Sass/dna_profile.scss */
+/* line 1784, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary .panel-footer {
   background-color: #247da6;
   height: 47px;
 }
-/* line 1780, ../../Private/Sass/dna_profile.scss */
+/* line 1789, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 {
   border: none;
 }
-/* line 1782, ../../Private/Sass/dna_profile.scss */
+/* line 1791, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 .panel-heading {
   background-color: #195673;
 }
-/* line 1784, ../../Private/Sass/dna_profile.scss */
+/* line 1793, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 .panel-heading a.btn {
   color: #195673;
 }
-/* line 1788, ../../Private/Sass/dna_profile.scss */
+/* line 1797, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-primary2 .panel-footer {
   background-color: #195673;
 }
-/* line 1792, ../../Private/Sass/dna_profile.scss */
+/* line 1801, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning {
   border: none;
 }
-/* line 1794, ../../Private/Sass/dna_profile.scss */
+/* line 1803, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning .panel-heading {
   background-color: #ffb300;
 }
-/* line 1796, ../../Private/Sass/dna_profile.scss */
+/* line 1805, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning .panel-heading a.btn {
   color: #ffb300;
 }
-/* line 1800, ../../Private/Sass/dna_profile.scss */
+/* line 1809, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-warning .panel-footer {
   background-color: #ffb300;
 }
-/* line 1804, ../../Private/Sass/dna_profile.scss */
+/* line 1813, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success {
   border: none;
 }
-/* line 1806, ../../Private/Sass/dna_profile.scss */
+/* line 1815, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success .panel-heading {
   background-color: #39bdb6;
 }
-/* line 1808, ../../Private/Sass/dna_profile.scss */
+/* line 1817, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success .panel-heading a.btn {
   color: #39bdb6;
 }
-/* line 1812, ../../Private/Sass/dna_profile.scss */
+/* line 1821, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-success .panel-footer {
   background-color: #39bdb6;
 }
-/* line 1816, ../../Private/Sass/dna_profile.scss */
+/* line 1825, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger {
   border: none;
 }
-/* line 1818, ../../Private/Sass/dna_profile.scss */
+/* line 1827, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger .panel-heading {
   background-color: #9d4bbd;
 }
-/* line 1820, ../../Private/Sass/dna_profile.scss */
+/* line 1829, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger .panel-heading a.btn {
   color: #9d4bbd;
 }
-/* line 1824, ../../Private/Sass/dna_profile.scss */
+/* line 1833, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.panel-danger .panel-footer {
   background-color: #9d4bbd;
 }
-/* line 1829, ../../Private/Sass/dna_profile.scss */
+/* line 1838, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-lower-section {
   border-top: solid 1px #ccc;
   background-color: #f0f4f7;
   padding: 28px 56px;
 }
-/* line 1833, ../../Private/Sass/dna_profile.scss */
+/* line 1842, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-lower-section h3 {
   margin: 0;
   font-weight: 600;
 }
-/* line 1837, ../../Private/Sass/dna_profile.scss */
+/* line 1846, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-lower-section .panel-body-row {
   margin-top: 34px;
 }
-/* line 1840, ../../Private/Sass/dna_profile.scss */
+/* line 1849, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-lower-section .panel-body-row .tweet-profile img {
   border: solid 1px #fff;
 }
-/* line 1843, ../../Private/Sass/dna_profile.scss */
+/* line 1852, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel .panel-lower-section .panel-body-row .tweet-profile span {
   display: block;
 }
-/* line 1850, ../../Private/Sass/dna_profile.scss */
+/* line 1859, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian {
   margin: 0;
   box-shadow: none;
 }
-/* line 1855, ../../Private/Sass/dna_profile.scss */
+/* line 1864, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian:nth-child(2) .panel-heading {
   background-color: #2d9acc;
   border-radius: 0;
 }
-/* line 1862, ../../Private/Sass/dna_profile.scss */
+/* line 1871, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian:nth-child(3) .panel-heading {
   background-color: #247da6;
   border-radius: 0;
 }
-/* line 1869, ../../Private/Sass/dna_profile.scss */
+/* line 1878, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian:nth-child(4) .panel-heading {
   background-color: #1c6080;
   border-radius: 0;
 }
-/* line 1876, ../../Private/Sass/dna_profile.scss */
+/* line 1885, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian:nth-child(5) .panel-heading, .body-contents .tweet-panel.accordian:last-child .panel-heading {
   background-color: #144359;
   border-radius: 0;
 }
-/* line 1882, ../../Private/Sass/dna_profile.scss */
+/* line 1891, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading {
   color: #fff;
   height: auto;
   min-height: 72px;
   padding: 5px 20px 0;
 }
-/* line 1887, ../../Private/Sass/dna_profile.scss */
+/* line 1896, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading .num {
   font-weight: 600;
   font-size: 20px;
 }
-/* line 1891, ../../Private/Sass/dna_profile.scss */
+/* line 1900, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading h3 {
   font-weight: 700;
   font-size: 28px;
   margin: 0;
   line-height: 25px;
 }
-/* line 1896, ../../Private/Sass/dna_profile.scss */
+/* line 1905, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading h3 span {
   font-weight: 400;
   font-size: 18px;
   padding-left: 15px;
 }
-/* line 1902, ../../Private/Sass/dna_profile.scss */
+/* line 1911, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading a.btn {
   font-size: 14px;
   font-weight: 600;
   margin: 0;
 }
-/* line 1906, ../../Private/Sass/dna_profile.scss */
+/* line 1915, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading a.btn .fa-chevron-down {
   display: none;
 }
-/* line 1909, ../../Private/Sass/dna_profile.scss */
+/* line 1918, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading a.btn .fa-chevron-up {
   display: inline;
 }
-/* line 1912, ../../Private/Sass/dna_profile.scss */
+/* line 1921, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading a.btn.collapsed .fa-chevron-down {
   display: inline;
 }
-/* line 1915, ../../Private/Sass/dna_profile.scss */
+/* line 1924, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-heading a.btn.collapsed .fa-chevron-up {
   display: none;
 }
-/* line 1920, ../../Private/Sass/dna_profile.scss */
+/* line 1929, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .panel-body {
   padding: 0;
 }
-/* line 1924, ../../Private/Sass/dna_profile.scss */
+/* line 1933, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel {
   margin: 15px auto;
   width: 94%;
 }
-/* line 1927, ../../Private/Sass/dna_profile.scss */
+/* line 1936, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .tweet {
   border-radius: 0;
   margin-bottom: 0;
   padding: 10px;
 }
-/* line 1931, ../../Private/Sass/dna_profile.scss */
+/* line 1940, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .tweet:first-child {
   border-radius: 5px 0 0;
 }
-/* line 1934, ../../Private/Sass/dna_profile.scss */
+/* line 1943, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .tweet:last-child {
   border-radius: 0 0 0 5px;
 }
-/* line 1938, ../../Private/Sass/dna_profile.scss */
+/* line 1947, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower {
   border-radius: 0 5px 5px 0;
 }
-/* line 1940, ../../Private/Sass/dna_profile.scss */
+/* line 1949, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower h4 {
   color: #133a4c;
   font-weight: 600;
   font-size: 16px;
   margin: 25px 0 15px;
 }
-/* line 1946, ../../Private/Sass/dna_profile.scss */
+/* line 1955, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower ul {
   margin: 0;
   padding: 0;
 }
-/* line 1949, ../../Private/Sass/dna_profile.scss */
+/* line 1958, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower ul li {
   display: inline-block;
   list-style-type: none;
   margin: 0 44px 20px 0;
   text-align: center;
 }
-/* line 1954, ../../Private/Sass/dna_profile.scss */
+/* line 1963, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower ul li:last-child {
   margin-right: 0;
 }
-/* line 1957, ../../Private/Sass/dna_profile.scss */
+/* line 1966, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower ul li a {
   color: #4a4a4a;
   font-size: 12px;
   font-weight: 600;
 }
-/* line 1961, ../../Private/Sass/dna_profile.scss */
+/* line 1970, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower ul li a span {
   display: block;
 }
-/* line 1965, ../../Private/Sass/dna_profile.scss */
+/* line 1974, ../../Private/Sass/dna_profile.scss */
 .body-contents .tweet-panel.accordian .document-collapse .tweets-panel .follower ul li img {
   border: 2px solid #9babb4;
   height: 64px;
   width: 64px;
 }
-/* line 1978, ../../Private/Sass/dna_profile.scss */
+/* line 1987, ../../Private/Sass/dna_profile.scss */
 .body-contents .middle-tweet-panels {
   margin-top: 36px;
 }
-/* line 1981, ../../Private/Sass/dna_profile.scss */
+/* line 1990, ../../Private/Sass/dna_profile.scss */
 .body-contents .middle-tweet-panels .tweet-panel .panel-heading {
   height: 60px;
 }
-/* line 1984, ../../Private/Sass/dna_profile.scss */
+/* line 1993, ../../Private/Sass/dna_profile.scss */
 .body-contents .middle-tweet-panels .tweet-panel .tweet {
   padding: 0 20px 20px 20px;
   border-radius: 0;
 }
-/* line 1988, ../../Private/Sass/dna_profile.scss */
+/* line 1997, ../../Private/Sass/dna_profile.scss */
 .body-contents .middle-tweet-panels .tweet-panel .panel-footer {
   background-color: #fff;
   border: none;
@@ -2271,73 +2284,73 @@ footer {
   font-style: normal !important;
   text-align: center;
 }
-/* line 1997, ../../Private/Sass/dna_profile.scss */
+/* line 2006, ../../Private/Sass/dna_profile.scss */
 .body-contents .middle-tweet-panels .t-action-btns a.btn {
   color: #30a3d9;
   margin-right: 48px;
 }
 
-/* line 2005, ../../Private/Sass/dna_profile.scss */
+/* line 2014, ../../Private/Sass/dna_profile.scss */
 .filter-cols {
   border-top: solid 2px #d8d8d8;
   margin-top: 14px;
 }
-/* line 2008, ../../Private/Sass/dna_profile.scss */
+/* line 2017, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 {
   padding-left: 0;
 }
-/* line 2010, ../../Private/Sass/dna_profile.scss */
+/* line 2019, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 .check-filter {
   border-bottom: solid 1px #d8d8d8;
   padding-bottom: 8px;
 }
-/* line 2014, ../../Private/Sass/dna_profile.scss */
+/* line 2023, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 h4 {
   font-size: 20px;
   cursor: pointer;
 }
-/* line 2017, ../../Private/Sass/dna_profile.scss */
+/* line 2026, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 h4 .fa {
   font-size: 25px;
   float: right;
 }
-/* line 2020, ../../Private/Sass/dna_profile.scss */
+/* line 2029, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 h4 .fa.fa-chevron-up {
   display: none;
 }
-/* line 2025, ../../Private/Sass/dna_profile.scss */
+/* line 2034, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 h4[aria-expanded="true"] .fa-chevron-down {
   display: none;
 }
-/* line 2028, ../../Private/Sass/dna_profile.scss */
+/* line 2037, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 h4[aria-expanded="true"] .fa-chevron-up {
   display: inline;
 }
-/* line 2034, ../../Private/Sass/dna_profile.scss */
+/* line 2043, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-3 .collapse label, .filter-cols > .col-sm-3 .collapsing label {
   font-size: 16px;
   color: #666;
   font-weight: 400;
 }
-/* line 2041, ../../Private/Sass/dna_profile.scss */
+/* line 2050, ../../Private/Sass/dna_profile.scss */
 .filter-cols > .col-sm-9 {
   min-height: 1250px;
   border-left: solid 2px #d8d8d8;
 }
 
-/* line 2046, ../../Private/Sass/dna_profile.scss */
+/* line 2055, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter {
   padding-top: 40px;
   margin: 0 -25px 0 25px;
 }
-/* line 2049, ../../Private/Sass/dna_profile.scss */
+/* line 2058, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter .avatar {
   border-radius: 50%;
   width: 60px;
   height: 60px;
   margin: 2px 0;
 }
-/* line 2055, ../../Private/Sass/dna_profile.scss */
+/* line 2064, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter a .fa {
   border-radius: 50%;
   color: #fff;
@@ -2345,79 +2358,79 @@ footer {
   position: absolute;
   top: 0;
 }
-/* line 2061, ../../Private/Sass/dna_profile.scss */
+/* line 2070, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter a .fa.fa-frown-o {
   background-color: red;
   font-size: 26px;
   line-height: 22px;
   border: solid 1px #fff;
 }
-/* line 2067, ../../Private/Sass/dna_profile.scss */
+/* line 2076, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter a .fa.fa-comments {
   background-color: blue;
   font-size: 16px;
   padding: 4px;
   line-height: 16px;
 }
-/* line 2074, ../../Private/Sass/dna_profile.scss */
+/* line 2083, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter .tweet-text {
   margin-left: 80px;
   width: 100%;
   color: #4a4a4a;
 }
-/* line 2078, ../../Private/Sass/dna_profile.scss */
+/* line 2087, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter .tweet-text strong {
   display: block;
   line-height: 14px;
   font-weight: 600;
 }
-/* line 2083, ../../Private/Sass/dna_profile.scss */
+/* line 2092, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter .tweet-text .username {
   font-size: 12px;
   line-height: 24px;
 }
-/* line 2087, ../../Private/Sass/dna_profile.scss */
+/* line 2096, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter .tweet-text .label-info {
   margin-right: 5px;
   border-radius: 5px;
   background-color: #ffb300;
 }
-/* line 2091, ../../Private/Sass/dna_profile.scss */
+/* line 2100, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter .tweet-text .label-info:nth-child(2n) {
   background-color: #39bdb6;
 }
-/* line 2094, ../../Private/Sass/dna_profile.scss */
+/* line 2103, ../../Private/Sass/dna_profile.scss */
 .tweet-panel-filter .tweet-text .label-info:nth-child(3n) {
   background-color: #9d4bbd;
 }
 
 /**************** Profile Page *************************/
-/* line 2102, ../../Private/Sass/dna_profile.scss */
+/* line 2111, ../../Private/Sass/dna_profile.scss */
 #profile .banner-bg {
   height: 311px;
   margin-bottom: 28px;
   background-color: #000;
 }
-/* line 2106, ../../Private/Sass/dna_profile.scss */
+/* line 2115, ../../Private/Sass/dna_profile.scss */
 #profile .banner-bg .banner {
   opacity: 0.8;
 }
-/* line 2109, ../../Private/Sass/dna_profile.scss */
+/* line 2118, ../../Private/Sass/dna_profile.scss */
 #profile .banner-bg .banner-content {
   padding: 30px 0;
 }
 
 /**************** Group Page *************************/
-/* line 2114, ../../Private/Sass/dna_profile.scss */
+/* line 2123, ../../Private/Sass/dna_profile.scss */
 #group .banner-bg {
   height: 266px;
   background-color: #000;
 }
-/* line 2117, ../../Private/Sass/dna_profile.scss */
+/* line 2126, ../../Private/Sass/dna_profile.scss */
 #group .banner-bg .banner {
   opacity: 0.7;
 }
-/* line 2120, ../../Private/Sass/dna_profile.scss */
+/* line 2129, ../../Private/Sass/dna_profile.scss */
 #group .banner-bg .banner-content {
   padding: 40px 0;
 }
