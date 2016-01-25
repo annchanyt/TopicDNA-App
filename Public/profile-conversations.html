@@ -33,46 +33,47 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    
+  <body id='profile'> 
     <nav role="navigation" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
           <a href="/" class="navbar-brand">
             <img alt="Logo lg" src="images/logo.png">
-    </a>    </div>
-          <div>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="/twitter/lists/52/members" class="nav-icons btn btn-lg">
-            <div data-trigger="manual" data-toggle="popover" data-placement="bottom" id="listNotification" data-original-title="" title="">
-              <i class="fa fa-bookmark"></i>
-              <span class="list-member-count">0</span>
-    </div></a>    </li>
-        <li class="dropdown">
-          <a data-toggle="dropdown" class="navbar-avatar-dropdown dropdown-toggle" href="#">
-            <img width="34" height="34" alt="M fxqbpn normal" src="http://pbs.twimg.com/profile_images/481096673850974209/m_fXqbpn_normal.jpeg" class="img-circle">
-            <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="/">Home</a></li>
-            <li class="divider"></li>
-            <li><a href="/sign_out" data-method="delete" rel="nofollow" class="sign-out">Sign out</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form role="search" class="navbar-form navbar-right form-inline search-form">
-        <div class="form-group">
-          <input type="text" data-provide="typeahead" placeholder="Search Profiles" class="form-control" id="searchProfiles">
-          <span id="searchProfilesIcon"><i class="fa fa-search"></i></span>
-          <div class=" hidden sk-spinner sk-spinner-double-bounce" id="searchProfilesSpinner">
-            <div class="sk-double-bounce1"></div>
-            <div class="sk-double-bounce2"></div>
-          </div>
+          </a>   
         </div>
-      </form>
-    </div>
-
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/twitter/lists/52/members" class="nav-icons btn">
+                <div data-trigger="manual" data-toggle="popover" data-placement="bottom" id="listNotification" data-original-title="" title="">
+                  <i class="fa fa-bookmark"></i>
+                  <span class="list-member-count">0</span>
+                </div>
+              </a>    
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="navbar-avatar-dropdown dropdown-toggle" href="#">
+                <img alt="M fxqbpn normal" src="http://pbs.twimg.com/profile_images/481096673850974209/m_fXqbpn_normal.jpeg" class="img-circle">
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/">Home</a></li>
+                <li class="divider"></li>
+                <li><a href="/sign_out" data-method="delete" rel="nofollow" class="sign-out">Sign out</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search" class="navbar-form navbar-right form-inline search-form">
+            <div class="form-group">
+              <input type="text" data-provide="typeahead" placeholder="Search Profiles" class="form-control" id="searchProfiles">
+              <span id="searchProfilesIcon"><i class="fa fa-search"></i></span>
+              <div class=" hidden sk-spinner sk-spinner-double-bounce" id="searchProfilesSpinner">
+                <div class="sk-double-bounce1"></div>
+                <div class="sk-double-bounce2"></div>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </nav>
     <div class="header-blue banner-bg">
@@ -86,11 +87,11 @@
               </a>
             </div>
             <div class="col-xs-7 col-sm-7">
-              <h1>Jack Dorsey <span>@jack</span> <a class="btn btn-default" href="#"><i class="fa fa-twitter"></i> FOLLOW</a></h1>
+              <h1>Jack Dorsey <span>@jack</span><a class="btn btn-default" href="#"><i class="fa fa-twitter"></i>FOLLOW</a></h1>
               <p>CEO &amp; Co-Founder @Preceptiv. @rotmanschool MBA. Univ. of Manchester PhD. #PEO engineer. Speaker, mentor, DJ and music producer.</p>              
             </div>
-            <div class="col-xs-3 col-sm-3">
-              <h4><i aria-hidden="true" class="fa fa-map-marker"></i> California, USA</h4>
+            <div class="col-xs-3 col-sm-3 profile-meta">
+              <h4><i aria-hidden="true" class="fa fa-map-marker"></i>California, USA</h4>
               <ul class="twitter-infoes">
                 <li><span>TWEETS</span> 17.9K</li>
                 <li><span>FOLLOWING</span> 1,705</li>
@@ -116,7 +117,7 @@
       <div class="banner-navigation">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8 col-md-offset-2">
               <ul class="nav nav-pills">
                 <li><a class="active" href="#">Conversations</a></li>
                 <li><a class="" href="profile-latest-tweets.html">Latest Tweets</a> </li>
@@ -134,13 +135,17 @@
     <div class="container">
       <div class="row body-header text-center">
         <div class="col-xs-12 col-sm-12">
-          <div class="text-center"><p><a class="btn btn-danger btn-lg" href="#"><i class="fa fa-twitter"></i> ENGAGE NOW</a> <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-bookmark"></i> SAVE USER</a> <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-users"></i> CREATE GROUP</a> <a class="question" href="#"><i class="fa fa-question"></i></a></p></div>
+          <div class="text-center">
+            <p>
+              <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-twitter"></i>ENGAGE NOW</a> <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-bookmark"></i>SAVE USER</a> <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-users"></i>CREATE GROUP</a><a class="question" href="#"><i class="fa fa-question"></i></a>
+            </p>
+          </div>
         </div>
       </div>
 
       <div class="body-contents">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3 middle-tweet-panels">
+          <div class="col-md-6 middle-tweet-panels">
             <div class="panel panel-default panel-info tweet-panel">
                   <div class="panel-heading">
                     <h3 class="panel-title">Conversations with you</h3>
@@ -217,85 +222,86 @@
                     </div>
                   </div>
                   <div class="panel-footer"><a class="btn btn-danger btn-xs" href="#">LOAD MORE</a></div>
+            </div>
+          </div>
+          <div class="col-md-6 middle-tweet-panels">
+            <div class="panel panel-default panel-info tweet-panel">
+              <div class="panel-heading">
+                <h3 class="panel-title">Conversations with people you follow</h3>
+              </div>
+              <div class="tweet">
+                <div class="panel-body">
+                  <div class="row">
+                    <a href="" class="inactiveLink">
+                       <img alt="Tweet 1" src="images/Ev-Williams.jpg" class="avatar">
+                    </a>
+                    <div class="tweet-text">
+                      <a href="" class="inactiveLink">
+                        <strong>Jack</strong>
+                        <span class="username">@Jack</span>
+                      </a>
+                      <small class="time">4 mins</small>
+                      <p>Dear <a class="inactiveLink hashtag" href="">#Inners</a>: If you have not re-tweeted the ever-loving f**k out of  <a class="t-handle inactiveLink" href="">@igorvolsky</a>, you are dropping the ball. I forgive you, but get to work.</p>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="panel panel-default panel-info tweet-panel">
-                  <div class="panel-heading">
-                    <h3 class="panel-title">Conversations with people you follow</h3>
-                  </div>
-                  <div class="tweet">
-                    <div class="panel-body">
-                      <div class="row">
-                        <a href="" class="inactiveLink">
-                           <img alt="Tweet 1" src="images/Ev-Williams.jpg" class="avatar">
-                        </a>
-                        <div class="tweet-text">
-                          <a href="" class="inactiveLink">
-                            <strong>Jack</strong>
-                            <span class="username">@Jack</span>
-                          </a>
-                          <small class="time">4 mins</small>
-                          <p>Dear <a class="inactiveLink hashtag" href="">#Inners</a>: If you have not re-tweeted the ever-loving f**k out of  <a class="t-handle inactiveLink" href="">@igorvolsky</a>, you are dropping the ball. I forgive you, but get to work.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class=" tweet">
-                    <div class="panel-body">
-                      <div class="row">
-                        <a href="" class="inactiveLink">
-                           <img alt="Tweet 1" src="images/Ev-Williams.jpg" class="avatar">
-                        </a>
-                        <div class="tweet-text"> 
-                          <a href="" class="inactiveLink">
-                            <strong>Jack</strong>
-                            <span class="username">@Jack</span>
-                          </a>
-                          <small class="time">4 mins</small>
-                          <p>Best Team Out There</p>
-                        </div>  
-                        <div class="quote-tweet">
-                          <div class="quote-tweet-container">
-                            <a class="quote-tweet-link inactiveLink" href="">
-                              <div class="quote-tweet-inner-container">
-                                <div class="tweet-content">
-                                  <strong>Golden St. Warriors</strong>
-                                  <span class="username">@warriors</span>
-                                  <p>8 players w/ at least 2 assists tonight for the Dubs. #Warriors had 35 assists on 47 made buckets.</p>
-                                </div>
-                              </div>
-                            </a>
+              </div>
+              <div class=" tweet">
+                <div class="panel-body">
+                  <div class="row">
+                    <a href="" class="inactiveLink">
+                       <img alt="Tweet 1" src="images/Ev-Williams.jpg" class="avatar">
+                    </a>
+                    <div class="tweet-text"> 
+                      <a href="" class="inactiveLink">
+                        <strong>Jack</strong>
+                        <span class="username">@Jack</span>
+                      </a>
+                      <small class="time">4 mins</small>
+                      <p>Best Team Out There</p>
+                    </div>  
+                    <div class="quote-tweet">
+                      <div class="quote-tweet-container">
+                        <a class="quote-tweet-link inactiveLink" href="">
+                          <div class="quote-tweet-inner-container">
+                            <div class="tweet-content">
+                              <strong>Golden St. Warriors</strong>
+                              <span class="username">@warriors</span>
+                              <p>8 players w/ at least 2 assists tonight for the Dubs. #Warriors had 35 assists on 47 made buckets.</p>
+                            </div>
                           </div>
-                        </div> 
-                      </div>  
-                    </div>
-                  </div>
-                  <div class="tweet">
-                    <div class="panel-body">
-                      <div class="tweet-context">
-                        <span class="fa fa-retweet"></span>
-                        <span class="retweet-text">Jack retweeted</span>
-                      </div>
-                      <div class="row">
-                        <a href="" class="inactiveLink">
-                           <img alt="Tweet 1" src="images/warriors.png" class="avatar">
                         </a>
-                        <a href="" class="inactiveLink">
-                          <strong>Golden St. Warriors</strong>
-                          <span class="username">@warriors</span>
-                        </a>
-                        <small class="time">Nov 29</small>
-                        <p>11-0</p>
-                        <div class="media-container">
-                          <div class="photo-container">
-                            <img alt="" src="images/warriors-photo.jpg">
-                          </div>
-                        </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="panel-footer"><a class="btn btn-danger btn-xs" href="#">LOAD MORE</a></div>
+                    </div> 
+                  </div>  
                 </div>
+              </div>
+              <div class="tweet">
+                <div class="panel-body">
+                  <div class="tweet-context">
+                    <span class="fa fa-retweet"></span>
+                    <span class="retweet-text">Jack retweeted</span>
+                  </div>
+                  <div class="row">
+                    <a href="" class="inactiveLink">
+                       <img alt="Tweet 1" src="images/warriors.png" class="avatar">
+                    </a>
+                    <a href="" class="inactiveLink">
+                      <strong>Golden St. Warriors</strong>
+                      <span class="username">@warriors</span>
+                    </a>
+                    <small class="time">Nov 29</small>
+                    <p>11-0</p>
+                    <div class="media-container">
+                      <div class="photo-container">
+                        <img alt="" src="images/warriors-photo.jpg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer"><a class="btn btn-danger btn-xs" href="#">LOAD MORE</a></div>
+            </div>
           </div>
         </div>
       </div>
