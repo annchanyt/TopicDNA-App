@@ -1384,7 +1384,6 @@ $break-6:87.5em; /* 1400px */
     width: 100%;
     left: 0;
     top: 0;
-
     ul li{
       .tag{
         margin-right: 5px;
@@ -1399,9 +1398,6 @@ $break-6:87.5em; /* 1400px */
           background-color: #39bdb6;
       }
     } 
-     
-    
-
     h3{
       margin: 0;
       .btn-default{
@@ -1504,8 +1500,12 @@ $break-6:87.5em; /* 1400px */
         font-size: 14px;
         border-radius: 20px;
         border: none;
-        font-weight: 500;
-        padding: 2px 12px;
+        font-weight: 600;
+        padding: 3px 14px 2px;
+        margin-left: 12px;
+        .fa-twitter{
+          margin-right: 4px;
+        }
       }
     }
     ul.twitter-infoes li{
