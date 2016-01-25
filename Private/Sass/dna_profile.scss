@@ -817,6 +817,9 @@ footer{
   padding: 0;
 }
 .body-header{
+  p{
+    margin: 0;
+  }
   h2{
     font-size: 36px;
     margin: 0;
@@ -1384,8 +1387,12 @@ $break-6:87.5em; /* 1400px */
     width: 100%;
     left: 0;
     top: 0;
+    h4{
+      margin-bottom: 16px;
+    }
     ul li{
       .tag{
+        padding: .35em .7em .4em;
         margin-right: 5px;
         border-radius: 5px;
         background-color: #ffb300;
@@ -1489,6 +1496,7 @@ $break-6:87.5em; /* 1400px */
     h1{
       font-family: 'Montserrat', sans-serif;
       font-weight: 700;
+      margin-bottom: 24px;
       span{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 400;
@@ -1508,18 +1516,29 @@ $break-6:87.5em; /* 1400px */
         }
       }
     }
-    ul.twitter-infoes li{
-      color: $white;
-      border-right: solid 1px $white;
-      padding-right: 10px;
-      margin-right: 10px;
-      span{
-        line-height: 13px;
+    hr{
+      margin-top: 6px;
+    }
+    .profile-meta{
+      h4{
+        margin-bottom: 23px;
+        .fa{
+          margin-right: 10px;
+        }
       }
-      &:last-child{
-        padding:0;
-        margin: 0;
-        border: none;
+      ul.twitter-infoes li{
+        color: $white;
+        border-right: solid 1px $white;
+        padding-right: 10px;
+        margin-right: 10px;
+        span{
+          line-height: 13px;
+        }
+        &:last-child{
+          padding:0;
+          margin: 0;
+          border: none;
+        }
       }
     }
   }
@@ -1957,7 +1976,7 @@ $break-6:87.5em; /* 1400px */
 
   }
   .middle-tweet-panels{
-    margin-top: 28px;
+    margin-top: 36px;
     .tweet-panel{
       .panel-heading{
         height: 60px;
