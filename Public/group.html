@@ -32,46 +32,47 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="white">
-    
+  <body id='group' class="white">
     <nav role="navigation" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
           <a href="/" class="navbar-brand">
             <img alt="Logo lg" src="images/logo.png">
-    </a>    </div>
-          <div>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="/twitter/lists/52/members" class="nav-icons btn btn-lg">
-            <div data-trigger="manual" data-toggle="popover" data-placement="bottom" id="listNotification" data-original-title="" title="">
-              <i class="fa fa-bookmark"></i>
-              <span class="list-member-count">0</span>
-    </div></a>    </li>
-        <li class="dropdown">
-          <a data-toggle="dropdown" class="navbar-avatar-dropdown dropdown-toggle" href="#">
-            <img width="34" height="34" alt="M fxqbpn normal" src="http://pbs.twimg.com/profile_images/481096673850974209/m_fXqbpn_normal.jpeg" class="img-circle">
-            <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="/">Home</a></li>
-            <li class="divider"></li>
-            <li><a href="/sign_out" data-method="delete" rel="nofollow" class="sign-out">Sign out</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form role="search" class="navbar-form navbar-right form-inline search-form">
-        <div class="form-group">
-          <input type="text" data-provide="typeahead" placeholder="Search Profiles" class="form-control" id="searchProfiles">
-          <span id="searchProfilesIcon"><i class="fa fa-search"></i></span>
-          <div class=" hidden sk-spinner sk-spinner-double-bounce" id="searchProfilesSpinner">
-            <div class="sk-double-bounce1"></div>
-            <div class="sk-double-bounce2"></div>
-          </div>
+          </a>   
         </div>
-      </form>
-    </div>
-
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/twitter/lists/52/members" class="nav-icons btn">
+                <div data-trigger="manual" data-toggle="popover" data-placement="bottom" id="listNotification" data-original-title="" title="">
+                  <i class="fa fa-bookmark"></i>
+                  <span class="list-member-count">0</span>
+                </div>
+              </a>    
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="navbar-avatar-dropdown dropdown-toggle" href="#">
+                <img alt="M fxqbpn normal" src="http://pbs.twimg.com/profile_images/481096673850974209/m_fXqbpn_normal.jpeg" class="img-circle">
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/">Home</a></li>
+                <li class="divider"></li>
+                <li><a href="/sign_out" data-method="delete" rel="nofollow" class="sign-out">Sign out</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search" class="navbar-form navbar-right form-inline search-form">
+            <div class="form-group">
+              <input type="text" data-provide="typeahead" placeholder="Search Profiles" class="form-control" id="searchProfiles">
+              <span id="searchProfilesIcon"><i class="fa fa-search"></i></span>
+              <div class=" hidden sk-spinner sk-spinner-double-bounce" id="searchProfilesSpinner">
+                <div class="sk-double-bounce1"></div>
+                <div class="sk-double-bounce2"></div>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </nav>
     <div class="banner-bg">
@@ -82,10 +83,10 @@
               <div class="col-md-12 text-center">
                 <div class="search-topic less">
                   <h2>Create groups of like-minded people</h2>
-                  <h4>You can search by personas, topics, twitter handles or combined them all!</h4>
+                  <h4>Search any personas, topics, and twitter handles!</h4>
                   <div class="search-form">
                     <form class="form-inline">
-                      <input type="text" value="" class="form-control" placeholder="Type Topics" data-role="tagsinput" /><input type="submit" class="btn btn-danger" value="Search" />
+                      <input type="text" value="" class="form-control" placeholder="Type Personas, Topics, Twitter handles..." data-role="tagsinput" /><input type="submit" class="btn btn-danger" value="Search" />
                     </form>
                   </div>
 
@@ -94,35 +95,38 @@
           </div>
         </div> 
       </div>
-      <div class="banner-filter">
+      <!-- <div class="banner-filter">
         <div class="container">
           <div class="row">
-                <a class="btn btn-grey dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hide Advance Filters <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
-                  <div class="dropdown-menu">
-                      <div class="col-md-6">
-                        <h5>SIMILARITY SCALE</h5>
-                        <input type="text" class="slide" data-slider-max="100" value="70" id="s11" >
-                        <div class="slider"><span class="pull-left">0% similar</span><span class="pull-right">Identical</span></div>
-                      </div>
-                      <div class="col-md-6">
-                        <h5>NUMBER OF RESULTS</h5>
-                        <input type="text" class="slide" data-slider-max="20000" value="4032" id="s12" >
-                        <div class="slider"><span class="pull-left">0</span><span class="pull-right">20K</span></div>
-                      </div>
-                 </div>
+            <a class="btn btn-grey dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Show Advance Filters <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+              <div class="dropdown-menu">
+                <div class="col-md-6">
+                  <h5>SIMILARITY SCALE</h5>
+                  <input type="text" class="slide" data-slider-max="100" value="70" id="s11" >
+                  <div class="slider"><span class="pull-left">0% similar</span><span class="pull-right">Identical</span></div>
+                </div>
+                <div class="col-md-6">
+                  <h5>NUMBER OF RESULTS</h5>
+                  <input type="text" class="slide" data-slider-max="20000" value="4032" id="s12" >
+                  <div class="slider"><span class="pull-left">0</span><span class="pull-right">20K</span></div>
+                </div>
               </div>
+            </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
             
 
     <div class="container">
       <div class="row body-header text-center">
           <div class="col-xs-12 col-sm-12">
-            <h2>We found <a href="#">4032</a> Potential Fans</h2>
-            <p>&nbsp;</p>
-            <div class="text-center"><p><a class="btn btn-danger btn-xs" href="#">SAVE GROUP</a> <a class="btn btn-danger btn-xs" href="#">EXPORT GROUP</a> <a class="btn btn-danger btn-xs" href="#">TWEET GROUP</a></p></div>
+            <h2 class='center-block'>We found <span href="#">4032</span> Potential Fans</h2>
+            <div class="text-center">
+              <p>
+                <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-bookmark"></i>SAVE GROUP</a> <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-download"></i>EXPORT GROUP</a> <!-- <a class="btn btn-danger btn-lg" href="#"><i class="fa fa-twitter"></i>TWEET GROUP</a> -->
+              </p>
+            </div>
           </div>
         </div>
       <div class="row filter-cols">

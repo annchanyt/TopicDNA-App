@@ -820,17 +820,24 @@ footer{
   h2{
     font-size: 36px;
     margin: 0;
-    font-weight: 700;
-    color: $black;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: $dark-blue;
+    span{
+      color: $main-blue;
+    }
   }
   h4{
     font-weight: 600;
     color: #1a3966;
   }
   .text-center .btn-danger.btn-lg{
-    margin-right: 50px;
+    margin-right: 24px;
     &:last-child{
       margin-right: 0;
+    }
+    i{
+      margin-right:8px;
     }
   }
   .question{
@@ -843,7 +850,8 @@ footer{
     width: 28px;
     display: inline-block;
     position: absolute;
-    right: 340px;
+    right: 236px;
+    top: 8px;
   }
 }
 .aside{
@@ -1411,17 +1419,18 @@ $break-6:87.5em; /* 1400px */
       }
     }
     .search-topic{
-      padding-top: 72px;
+      padding-top: 64px;
       &.less{
         padding-top: 12px;
       }
       h2{
         margin: 0;
+        margin-bottom: 20px;
         font-size: 36px;
         font-weight: 600;
       }
       .search-form{
-        margin-top: 62px;
+        margin-top: 36px;
 
         .form-inline{
           .form-control, .bootstrap-tagsinput{
@@ -1556,7 +1565,6 @@ $break-6:87.5em; /* 1400px */
       overflow: hidden;
       position: static;
       width: 64%;
-
       .slider{
         width: 230px!important;
         display: block;
@@ -1949,7 +1957,7 @@ $break-6:87.5em; /* 1400px */
 
   }
   .middle-tweet-panels{
-    margin-top: 48px;
+    margin-top: 28px;
     .tweet-panel{
       .panel-heading{
         height: 60px;
@@ -1976,10 +1984,9 @@ $break-6:87.5em; /* 1400px */
 }
 
 .filter-cols{
-  border-top: solid 3px #d8d8d8;
-   margin-top: 14px;
-   & > .col-sm-3{
-      border-right: solid 2px #d8d8d8;
+  border-top: solid 2px #d8d8d8;
+  margin-top: 14px;
+  & > .col-sm-3{
       padding-left: 0;
       .check-filter{
         border-bottom: solid 1px #d8d8d8;
@@ -2011,7 +2018,11 @@ $break-6:87.5em; /* 1400px */
           font-weight: 400;
         }
       }
-   }
+  }
+  & > .col-sm-9{
+    min-height: 1250px;
+    border-left: solid 2px #d8d8d8;
+  }
 }
 .tweet-panel-filter{
   padding-top: 40px;
@@ -2024,21 +2035,21 @@ $break-6:87.5em; /* 1400px */
   }
   a .fa {
       border-radius: 50%;
-      font-size: 22px;
+      color: $white;
       left: 60px;
-      line-height: 18px;
       position: absolute;
       top: 0;
       &.fa-frown-o{
         background-color: red;
-        color: $white;
+        font-size: 26px;
+        line-height: 22px;
+        border: solid 1px $white;
       }
       &.fa-comments{
         background-color: blue;
-        color: $white;
-        font-size: 15px;
-        padding: 2px;
-        line-height: 15px;
+        font-size: 16px;
+        padding: 4px;
+        line-height: 16px;
       }
   }
   .tweet-text{
@@ -2070,15 +2081,27 @@ $break-6:87.5em; /* 1400px */
 }
 /**************** Profile Page *************************/
 #profile .banner-bg{
-	height: 339px;
+	height: 311px;
+  margin-bottom: 28px;
+  background-color: #000;
+  .banner{
+    opacity: 0.8;
+  }
   .banner-content{
-    padding: 44px 0;
+    padding: 30px 0;
   }
 }
-
-
-
-
+/**************** Group Page *************************/
+#group .banner-bg{
+  height: 266px;
+  background-color: #000;
+  .banner{
+    opacity: 0.7;
+  }
+  .banner-content{
+    padding: 40px 0;
+  }
+}
 
 
 
