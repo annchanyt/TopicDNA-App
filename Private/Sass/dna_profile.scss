@@ -293,20 +293,40 @@ input[type=checkbox]:checked + label:before { letter-spacing: 3px; } /* allow sp
 }
 /* Navbar =============================*/
 .navbar-avatar-dropdown {
-  padding-top: 12px !important;
-  padding-bottom: 12px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
 }
 .navbar {
+  border:none;
+  height: 46px;
+  min-height: 45px;
   margin-bottom: 0;
   .navbar-brand{
-    padding: 15px;
+    height: 45px;
+    padding: 12px 12px 8px;
     img{
-      height: 30px;
+      height: 24px;
     }
   }
 }
 
 nav {
+  .container-fluid{
+    background-color: $main-blue;
+  }
+  .nav-icons.btn{
+    padding: 10px 0;
+  }
+  .dropdown{
+    padding: 4px 0;
+    height: 45px;
+    img{
+      height: 30px;
+      width: 30px;
+      border: 2px solid $white;
+      margin-right:3px;
+    }
+  }
   .form-inline {
     position: relative;
     float: right;
@@ -314,7 +334,7 @@ nav {
       background-color: inherit;
       width: 250px;
       border: solid 2px $white;
-      height: 36px;
+      height: 30px;
       input {
         color: $white;
         opacity: 0.7;
@@ -333,18 +353,12 @@ nav {
       border: none;
       color: $white;
       position: absolute;
-      top: 8px;
-      left: 230px;
+      top: 4px;
+      left: 240px;
       &:hover {
         background-color: inherit;
         color: $white;
       }
-    }
-    img{
-      height: 36px;
-      width: 36px;
-      border: 2px solid $white;
-      margin-right: 16px;
     }
   }
 }
@@ -828,7 +842,8 @@ footer{
     line-height: 27px;
     width: 28px;
     display: inline-block;
-    margin-left: -20px;
+    position: absolute;
+    right: 340px;
   }
 }
 .aside{
@@ -1566,22 +1581,26 @@ $break-6:87.5em; /* 1400px */
     left: 0;
     width: 100%;
     color: $white;
-    height: 73px;
+    height: 60px;
     ul{
       li{
-        margin-right: 70px;
-        margin-top: 12px;
+        display: inline;
+        margin-right: 48px;
+        margin-top: 4px;
+        &:first-of-type{
+          margin-left: 48px;
+        }
         a{
           color: $white;
-          font-size: 24px;
-          line-height: 31px;
-          display: block;
+          font-size: 20px;
+          line-height: 28px;
+          padding-left:3px;
+          padding-right:3px;
           font-weight: 200;
           border-radius: 0;
-
           &:hover, &:focus, &.active{
             background-color:inherit;
-            border-bottom: solid 10px #52bdff;
+            border-bottom: solid 8px #52bdff;
           }
         }
       }
@@ -2049,3 +2068,41 @@ $break-6:87.5em; /* 1400px */
 
   }
 }
+/**************** Profile Page *************************/
+#profile .banner-bg{
+	height: 339px;
+  .banner-content{
+    padding: 44px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
