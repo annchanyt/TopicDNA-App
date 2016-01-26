@@ -298,7 +298,7 @@ input[type=checkbox]:checked + label:before { letter-spacing: 3px; } /* allow sp
 }
 .navbar {
   border:none;
-  height: 46px;
+  height: 45px;
   min-height: 45px;
   margin-bottom: 0;
   .navbar-brand{
@@ -309,23 +309,32 @@ input[type=checkbox]:checked + label:before { letter-spacing: 3px; } /* allow sp
     }
   }
 }
-
 nav {
   .container-fluid{
     background-color: $main-blue;
+    .navbar-header{
+      margin-left: 18px;
+    }
+  }
+  .navbar-right{
+    margin-right: 3px;
   }
   .nav-icons.btn{
     padding: 10px 0;
   }
   .dropdown{
-    padding: 4px 0;
+    padding: 3px 0;
     height: 45px;
     img{
-      height: 30px;
-      width: 30px;
+      height: 33px;
+      width: 33px;
       border: 2px solid $white;
       margin-right:3px;
     }
+  }
+  .navbar-form{
+    margin-top: 6px;
+    margin-bottom: 6px;
   }
   .form-inline {
     position: relative;
@@ -334,7 +343,7 @@ nav {
       background-color: inherit;
       width: 250px;
       border: solid 2px $white;
-      height: 30px;
+      height: 33px;
       input {
         color: $white;
         opacity: 0.7;
@@ -817,8 +826,11 @@ footer{
   padding: 0;
 }
 .body-header{
+  p{
+    margin: 0;
+  }
   h2{
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
     margin-bottom: 30px;
     font-weight: 600;
@@ -1369,7 +1381,7 @@ $break-6:87.5em; /* 1400px */
 .banner-bg{
   position: relative;
   margin-bottom: 36px;
-  height: 402px;
+  height: 350px;
   overflow: hidden;
   padding: 0;
   border: none;
@@ -1378,15 +1390,31 @@ $break-6:87.5em; /* 1400px */
     width: 100%;
   }
   .banner-content{
-    padding: 54px 0;
+    padding: 88px 0;
     color: $white;
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
-
+    .btn-default{
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #245799;
+      font-size: 14px;
+      border-radius: 20px;
+      border: none;
+      font-weight: 600;
+      padding: 3px 14px 2px;
+      margin-left: 12px;
+      .fa-twitter{
+        margin-right: 4px;
+      }
+    }
+    h4{
+      margin-bottom: 16px;
+    }
     ul li{
       .tag{
+        padding: .35em .7em .4em;
         margin-right: 5px;
         border-radius: 5px;
         background-color: #ffb300;
@@ -1399,15 +1427,12 @@ $break-6:87.5em; /* 1400px */
           background-color: #39bdb6;
       }
     } 
-     
-    
-
     h3{
       margin: 0;
+      font-size: 21px;
       .btn-default{
         border-color: $white;
         color: #245799;
-        border-radius: 5px;
         font-weight: 600;
         padding: 3px 12px;
       }
@@ -1419,7 +1444,7 @@ $break-6:87.5em; /* 1400px */
       }
     }
     .search-topic{
-      padding-top: 64px;
+      padding-top: 24px;
       &.less{
         padding-top: 12px;
       }
@@ -1493,33 +1518,36 @@ $break-6:87.5em; /* 1400px */
     h1{
       font-family: 'Montserrat', sans-serif;
       font-weight: 700;
+      margin-bottom: 24px;
       span{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 400;
         font-size: 18px;
       }
-      .btn{
-        font-family: 'Source Sans Pro', sans-serif;
-        color: #245799;
-        font-size: 14px;
-        border-radius: 20px;
-        border: none;
-        font-weight: 500;
-        padding: 2px 12px;
-      }
     }
-    ul.twitter-infoes li{
-      color: $white;
-      border-right: solid 1px $white;
-      padding-right: 10px;
-      margin-right: 10px;
-      span{
-        line-height: 13px;
+    hr{
+      margin-top: 6px;
+    }
+    .profile-meta{
+      h4{
+        margin-bottom: 23px;
+        .fa{
+          margin-right: 10px;
+        }
       }
-      &:last-child{
-        padding:0;
-        margin: 0;
-        border: none;
+      ul.twitter-infoes li{
+        color: $white;
+        border-right: solid 1px $white;
+        padding-right: 10px;
+        margin-right: 10px;
+        span{
+          line-height: 13px;
+        }
+        &:last-child{
+          padding:0;
+          margin: 0;
+          border: none;
+        }
       }
     }
   }
@@ -1957,7 +1985,7 @@ $break-6:87.5em; /* 1400px */
 
   }
   .middle-tweet-panels{
-    margin-top: 28px;
+    margin-top: 36px;
     .tweet-panel{
       .panel-heading{
         height: 60px;
@@ -1985,7 +2013,7 @@ $break-6:87.5em; /* 1400px */
 
 .filter-cols{
   border-top: solid 2px #d8d8d8;
-  margin-top: 14px;
+  margin-top: 36px;
   & > .col-sm-3{
       padding-left: 0;
       .check-filter{
@@ -2081,7 +2109,7 @@ $break-6:87.5em; /* 1400px */
 }
 /**************** Profile Page *************************/
 #profile .banner-bg{
-	height: 311px;
+  height: 311px;
   margin-bottom: 28px;
   background-color: #000;
   .banner{
