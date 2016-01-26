@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" />
     <!-- Custom styles for this template -->
     <link href="css/slider.css" rel="stylesheet">
-    <link href="css/dna_bookmark.css" rel="stylesheet">
+    <link href="css/dna_profile.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="javascripts/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -33,48 +33,48 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id='profile'> 
+  <body id='bookmark'> 
     <nav role="navigation" class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a href="/" class="navbar-brand">
-            <img alt="Logo lg" src="images/logo.png">
-          </a>   
-        </div>
-        <div>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="/twitter/lists/52/members" class="nav-icons btn">
-                <div data-trigger="manual" data-toggle="popover" data-placement="bottom" id="listNotification" data-original-title="" title="">
-                  <i class="fa fa-bookmark"></i>
-                  <span class="list-member-count">0</span>
-                </div>
-              </a>    
-            </li>
-            <li class="dropdown">
-              <a data-toggle="dropdown" class="navbar-avatar-dropdown dropdown-toggle" href="#">
-                <img alt="M fxqbpn normal" src="http://pbs.twimg.com/profile_images/481096673850974209/m_fXqbpn_normal.jpeg" class="img-circle">
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="/">Home</a></li>
-                <li class="divider"></li>
-                <li><a href="/sign_out" data-method="delete" rel="nofollow" class="sign-out">Sign out</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form role="search" class="navbar-form navbar-right form-inline search-form">
-            <div class="form-group">
-              <input type="text" data-provide="typeahead" placeholder="Search Profiles" class="form-control" id="searchProfiles">
-              <span id="searchProfilesIcon"><i class="fa fa-search"></i></span>
-              <div class=" hidden sk-spinner sk-spinner-double-bounce" id="searchProfilesSpinner">
-                <div class="sk-double-bounce1"></div>
-                <div class="sk-double-bounce2"></div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
+         <div class="container-fluid">
+           <div class="navbar-header">
+             <a href="/" class="navbar-brand">
+               <img alt="Logo lg" src="images/logo.png">
+             </a>   
+           </div>
+           <div>
+             <ul class="nav navbar-nav navbar-right">
+               <li>
+                 <a href="/twitter/lists/52/members" class="nav-icons btn">
+                   <div data-trigger="manual" data-toggle="popover" data-placement="bottom" id="listNotification" data-original-title="" title="">
+                     <i class="fa fa-bookmark"></i>
+                     <span class="list-member-count">0</span>
+                   </div>
+                 </a>    
+               </li>
+               <li class="dropdown">
+                 <a data-toggle="dropdown" class="navbar-avatar-dropdown dropdown-toggle" href="#">
+                   <img alt="M fxqbpn normal" src="http://pbs.twimg.com/profile_images/481096673850974209/m_fXqbpn_normal.jpeg" class="img-circle">
+                   <b class="caret"></b>
+                 </a>
+                 <ul class="dropdown-menu">
+                   <li><a href="/">Home</a></li>
+                   <li class="divider"></li>
+                   <li><a href="/sign_out" data-method="delete" rel="nofollow" class="sign-out">Sign out</a></li>
+                 </ul>
+               </li>
+             </ul>
+             <form role="search" class="navbar-form navbar-right form-inline search-form">
+               <div class="form-group">
+                 <input type="text" data-provide="typeahead" placeholder="Search Profiles" class="form-control" id="searchProfiles">
+                 <span id="searchProfilesIcon"><i class="fa fa-search"></i></span>
+                 <div class=" hidden sk-spinner sk-spinner-double-bounce" id="searchProfilesSpinner">
+                   <div class="sk-double-bounce1"></div>
+                   <div class="sk-double-bounce2"></div>
+                 </div>
+               </div>
+             </form>
+           </div>
+         </div>
     </nav>
     <div class="header-blue banner-bg">
       <img alt="banner" src="images/bg-cover.jpg" class="banner" />
