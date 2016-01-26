@@ -1,0 +1,110 @@
+/* Colours =============================*/
+/* ================================================*/
+$main-blue: #30a3d9;
+$dark-blue: #133a4c;
+$deep-blue: #154156;
+$light-dark-blue: #257da6;
+$blue-grey : #263741;
+$blue-grey2 : #414e57;
+$blue-grey3 : #808e96;
+$purple : #9b59b6;
+$blue : #31A2D8;
+$green : #00A29A;
+$pink : #e53272;
+$deep-pink: #bf2a5e;
+$yellow: #ffb300;
+
+body { 
+  background: url(../images/mojstrovka-1.jpg) no-repeat center center fixed; 
+   background: url(../images/MBV-03.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner-bg .banner-content{
+  h2{
+    display:inline-block;
+    font-size: 48px;
+    margin-bottom: 80px;
+  }
+  .loader{
+    color: white;
+    display:inline-block;
+  }
+}
+.banner-bg, .banner-content{
+  min-height: 540px;
+}
+// .footer{
+//   background-color: black;
+// }
+@keyframes loading {
+   0% {
+        transform: rotate(0deg);
+   }
+   25%{
+     transform: rotate(160deg);
+   }
+   50%{
+    transform: rotate(0deg);
+   }
+   75%{
+    transform: rotate(160deg);
+   }
+   100% {
+    transform: rotate(0deg);
+   };
+}
+.loading { 
+  background-color: transparent;
+  border-radius: 50%;
+  margin: 5px auto;
+  animation: loading 5s infinite linear;
+}
+
+.spin-1{
+  border: 5px solid $purple ;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  width: 140px;
+  height: 140px; 
+}
+.spin-2{
+  border: 5px solid $main-blue ;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  width: 120px;
+  height: 120px;
+  animation-delay: 1s;
+}
+.spin-3{
+  border: 5px solid $green ;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  width: 100px;
+  height: 100px; 
+  animation-delay: 1s;
+}
+.spin-4{
+  border: 5px solid $yellow ;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  width: 80px;
+  height: 80px; 
+  animation-delay: 1s;
+}
+.spin-5{
+  border: 5px solid $pink ;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  width: 60px;
+  height: 60px; 
+  animation-delay: 1s;
+}
+.spin-6{
+  border: 5px solid #FFF ;
+  width: 40px;
+  height: 40px; 
+  animation-delay: 1s;
+}
