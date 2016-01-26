@@ -1410,6 +1410,15 @@ $break-6:87.5em; /* 1400px */
     width: 100%;
     left: 0;
     top: 0;
+    .avatar{
+      width: 96px;
+      height: 96px;
+      border: solid 2px $white;
+      border-radius:50%;
+      margin: 0;
+      // margin-bottom: 20px;
+      float: none;
+    }
     .btn-default{
       font-family: 'Source Sans Pro', sans-serif;
       color: #245799;
@@ -1419,8 +1428,18 @@ $break-6:87.5em; /* 1400px */
       font-weight: 600;
       padding: 3px 14px 2px;
       margin-left: 12px;
-      .fa-twitter{
+      .fa{
         margin-right: 4px;
+      }
+    }
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-bottom: 24px;
+      span{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
       }
     }
     h2{
@@ -1428,6 +1447,16 @@ $break-6:87.5em; /* 1400px */
       vertical-align: middle;
       font-size: 36px;
       font-weight: 600;
+    }
+    h3{
+      margin: 0;
+      font-size: 21px;
+      .btn-default{
+        border-color: $white;
+        color: #245799;
+        font-weight: 600;
+        padding: 3px 12px;
+      }
     }
     h4{
       margin-bottom: 16px;
@@ -1447,16 +1476,6 @@ $break-6:87.5em; /* 1400px */
           background-color: #39bdb6;
       }
     } 
-    h3{
-      margin: 0;
-      font-size: 21px;
-      .btn-default{
-        border-color: $white;
-        color: #245799;
-        font-weight: 600;
-        padding: 3px 12px;
-      }
-    }
     .infoes{
       font-size: 18px;
       span{
@@ -1473,7 +1492,6 @@ $break-6:87.5em; /* 1400px */
       }
       .search-form{
         margin-top: 36px;
-
         .form-inline{
           .form-control, .bootstrap-tagsinput{
             width: 440px;
@@ -1522,24 +1540,6 @@ $break-6:87.5em; /* 1400px */
               font-weight: 600;
           }
         }
-      }
-    }
-    .avatar{
-      width: 96px;
-      height: 96px;
-      border: solid 2px $white;
-      border-radius:50%;
-      margin: 0;
-      float: none;
-    }
-    h1{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
-      margin-bottom: 24px;
-      span{
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
       }
     }
     hr{
@@ -2260,11 +2260,75 @@ banner-bg{
     }
   }
 }
+/**************** Group Results Page *************************/
 
-
-
-
-
+#group-results .banner-bg{
+  background-color: $deep-blue;
+  height: 72px;
+  margin-bottom:24px;
+  .banner-content{
+    padding: 0;
+    .search-topic{
+      padding: 16px 0;
+      .search-form-sm{
+        margin:0;
+        .form-inline{
+          .form-control, .bootstrap-tagsinput{
+            width: 80%;
+            padding: 5px 10px;
+            height: 40px;
+            border-radius: 6px;
+            margin: 0 20px 0 0;
+            text-align: left;
+          }
+          .bootstrap-tagsinput input{
+            height: 29px;
+          }
+          .tag.label-info {
+                background-color: #ffb300;
+                border-radius: 5px;
+                display: inline-block;
+                line-height: 26px;
+                padding: 0 10px;
+                font-size: 14px;
+                font-weight: 600;
+                position: relative;
+                margin-right: 10px;
+                span[data-role="remove"]{
+                  background-color: $black;
+                  border-radius: 50%;
+                  display: inline-block;
+                  height: 18px;
+                  line-height: 15px;
+                  width: 18px;
+                  position: absolute;
+                  right: -8px;
+                  top: -5px;
+                }
+                &:nth-child(2n){
+                  background-color: #39bdb6;
+                }
+                &:nth-child(3n){
+                  background-color: #9d4bbd;
+                }
+            }
+          .btn{
+            border-radius: 6px;
+            height: 40px;
+            padding: 3px 20px;
+            vertical-align: middle;
+            font-weight: 600;
+            background-color: $main-blue;
+            border-color: $main-blue;
+          }
+        }
+      }
+    }
+  }
+}
+#group-results .body-header h2{
+  margin-bottom: 24px;
+}
 
 
 

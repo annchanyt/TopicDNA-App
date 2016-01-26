@@ -1602,6 +1602,15 @@ footer {
   top: 0;
 }
 /* line 1413, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content .avatar {
+  width: 96px;
+  height: 96px;
+  border: solid 2px #fff;
+  border-radius: 50%;
+  margin: 0;
+  float: none;
+}
+/* line 1422, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .btn-default {
   font-family: 'Source Sans Pro', sans-serif;
   color: #245799;
@@ -1612,22 +1621,46 @@ footer {
   padding: 3px 14px 2px;
   margin-left: 12px;
 }
-/* line 1422, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content .btn-default .fa-twitter {
+/* line 1431, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content .btn-default .fa {
   margin-right: 4px;
 }
-/* line 1426, ../../Private/Sass/dna_profile.scss */
+/* line 1435, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+/* line 1439, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content h1 span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+/* line 1445, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content h2 {
   margin: 0;
   vertical-align: middle;
   font-size: 36px;
   font-weight: 600;
 }
-/* line 1432, ../../Private/Sass/dna_profile.scss */
+/* line 1451, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content h3 {
+  margin: 0;
+  font-size: 21px;
+}
+/* line 1454, ../../Private/Sass/dna_profile.scss */
+.banner-bg .banner-content h3 .btn-default {
+  border-color: #fff;
+  color: #245799;
+  font-weight: 600;
+  padding: 3px 12px;
+}
+/* line 1461, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content h4 {
   margin-bottom: 16px;
 }
-/* line 1436, ../../Private/Sass/dna_profile.scss */
+/* line 1465, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content ul li .tag {
   padding: .35em .7em .4em;
   margin-right: 5px;
@@ -1635,51 +1668,39 @@ footer {
   background-color: #ffb300;
   color: #fff;
 }
-/* line 1443, ../../Private/Sass/dna_profile.scss */
+/* line 1472, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content ul li:nth-child(2n) .tag {
   background-color: #9d4bbd;
 }
-/* line 1446, ../../Private/Sass/dna_profile.scss */
+/* line 1475, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content ul li:nth-child(3n) .tag {
   background-color: #39bdb6;
 }
-/* line 1450, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content h3 {
-  margin: 0;
-  font-size: 21px;
-}
-/* line 1453, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content h3 .btn-default {
-  border-color: #fff;
-  color: #245799;
-  font-weight: 600;
-  padding: 3px 12px;
-}
-/* line 1460, ../../Private/Sass/dna_profile.scss */
+/* line 1479, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .infoes {
   font-size: 18px;
 }
-/* line 1462, ../../Private/Sass/dna_profile.scss */
+/* line 1481, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .infoes span {
   margin-left: 20px;
 }
-/* line 1466, ../../Private/Sass/dna_profile.scss */
+/* line 1485, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic {
   padding-top: 24px;
 }
-/* line 1468, ../../Private/Sass/dna_profile.scss */
+/* line 1487, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic.less {
   padding-top: 12px;
 }
-/* line 1471, ../../Private/Sass/dna_profile.scss */
+/* line 1490, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic h2 {
   margin-bottom: 20px;
 }
-/* line 1474, ../../Private/Sass/dna_profile.scss */
+/* line 1493, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form {
   margin-top: 36px;
 }
-/* line 1478, ../../Private/Sass/dna_profile.scss */
+/* line 1496, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .form-control, .banner-bg .banner-content .search-topic .search-form .form-inline .bootstrap-tagsinput {
   width: 440px;
   padding: 8px 10px;
@@ -1688,11 +1709,11 @@ footer {
   margin: 0 20px 0 0;
   text-align: left;
 }
-/* line 1486, ../../Private/Sass/dna_profile.scss */
+/* line 1504, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .bootstrap-tagsinput input {
   height: 29px;
 }
-/* line 1489, ../../Private/Sass/dna_profile.scss */
+/* line 1507, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info {
   background-color: #ffb300;
   border-radius: 5px;
@@ -1704,7 +1725,7 @@ footer {
   position: relative;
   margin-right: 10px;
 }
-/* line 1499, ../../Private/Sass/dna_profile.scss */
+/* line 1517, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info span[data-role="remove"] {
   background-color: #133a4c;
   border-radius: 50%;
@@ -1716,42 +1737,21 @@ footer {
   right: -8px;
   top: -5px;
 }
-/* line 1510, ../../Private/Sass/dna_profile.scss */
+/* line 1528, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info:nth-child(2n) {
   background-color: #39bdb6;
 }
-/* line 1513, ../../Private/Sass/dna_profile.scss */
+/* line 1531, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .tag.label-info:nth-child(3n) {
   background-color: #9d4bbd;
 }
-/* line 1517, ../../Private/Sass/dna_profile.scss */
+/* line 1535, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content .search-topic .search-form .form-inline .btn {
   border-radius: 6px;
   height: 48px;
   padding: 5px 20px;
   vertical-align: middle;
   font-weight: 600;
-}
-/* line 1527, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content .avatar {
-  width: 96px;
-  height: 96px;
-  border: solid 2px #fff;
-  border-radius: 50%;
-  margin: 0;
-  float: none;
-}
-/* line 1535, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  margin-bottom: 24px;
-}
-/* line 1539, ../../Private/Sass/dna_profile.scss */
-.banner-bg .banner-content h1 span {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
 }
 /* line 1545, ../../Private/Sass/dna_profile.scss */
 .banner-bg .banner-content hr {
@@ -2578,4 +2578,84 @@ banner-bg .center-align h2 {
 .body-contents .bookmark-group .tweet-panel.panel-default .panel-footer {
   font-style: normal;
   font-weight: 600;
+}
+
+/**************** Group Results Page *************************/
+/* line 2265, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg {
+  background-color: #154156;
+  height: 72px;
+  margin-bottom: 24px;
+}
+/* line 2269, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content {
+  padding: 0;
+}
+/* line 2271, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic {
+  padding: 16px 0;
+}
+/* line 2273, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm {
+  margin: 0;
+}
+/* line 2276, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .form-control, #group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .bootstrap-tagsinput {
+  width: 80%;
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 6px;
+  margin: 0 20px 0 0;
+  text-align: left;
+}
+/* line 2284, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .bootstrap-tagsinput input {
+  height: 29px;
+}
+/* line 2287, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .tag.label-info {
+  background-color: #ffb300;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 26px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  margin-right: 10px;
+}
+/* line 2297, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .tag.label-info span[data-role="remove"] {
+  background-color: #133a4c;
+  border-radius: 50%;
+  display: inline-block;
+  height: 18px;
+  line-height: 15px;
+  width: 18px;
+  position: absolute;
+  right: -8px;
+  top: -5px;
+}
+/* line 2308, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .tag.label-info:nth-child(2n) {
+  background-color: #39bdb6;
+}
+/* line 2311, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .tag.label-info:nth-child(3n) {
+  background-color: #9d4bbd;
+}
+/* line 2315, ../../Private/Sass/dna_profile.scss */
+#group-results .banner-bg .banner-content .search-topic .search-form-sm .form-inline .btn {
+  border-radius: 6px;
+  height: 40px;
+  padding: 3px 20px;
+  vertical-align: middle;
+  font-weight: 600;
+  background-color: #30a3d9;
+  border-color: #30a3d9;
+}
+
+/* line 2329, ../../Private/Sass/dna_profile.scss */
+#group-results .body-header h2 {
+  margin-bottom: 24px;
 }
